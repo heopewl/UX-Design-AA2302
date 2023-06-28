@@ -1,0 +1,30 @@
+.TextforReservation{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header2{
+    padding:10px 0px 10px 0px;
+}
+
+.para1{
+    padding:10px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+
+.Navi{
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.Navi:hover{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    
+}
+

@@ -1,0 +1,80 @@
+.Container_Offers{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    height: 500px;
+    width: 70%;
+}
+.header_Offers,.header_Packages{
+    font-family: Verdana,sans-serif;
+    padding: 0px 0px 1px 0px;
+    border-bottom: 4px black solid;
+}
+
+
+.Offer_Box{
+    margin-left: 110px;
+    margin-top: 10px;
+    width: 35%;
+    height:400px;
+    overflow: hidden;
+    float: left;
+    
+}
+
+
+.images{
+    padding: 10px 30px;
+    height: 200px; 
+    width: 300px;
+    
+}
+
+
+.Container_Packages{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    height: 500px;
+    width: 70%;
+    
+}
+
+.Packages_Box{
+    margin-left: 110px;
+    margin-top: 10px;
+    width: 35%;
+    height:400px;
+    overflow: hidden;
+    float: left;
+}
+
+
+.textforOffer{
+    font-family: Verdana,sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.textforpackage{
+    font-family: Verdana,sans-serif;
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 30px;
+}
+
+.Packages_Button{
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.Packages_Button:hover{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    padding: 10px;
+}
