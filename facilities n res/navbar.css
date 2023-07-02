@@ -1,0 +1,49 @@
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4CAF50;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 5%;
+    background-color: rgba(245,222,179,0.6);
+}
+
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #FFB347;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #F68D2E;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #F68D2E;
+}
