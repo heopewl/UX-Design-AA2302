@@ -12,7 +12,7 @@
     margin-top: -450px;
     padding: 30px;
     margin-left: 360px;
-    opacity: .6;
+    opacity: .7;
     
 }
 
@@ -34,9 +34,22 @@
         display: block;
         justify-content: center;
         padding-right: 10px;
+        margin-right: 100px;
+        padding: 15px;
+        
     }
-    .searchbarcontainer label{
-       
+    .searchbarcontainer button{
+        margin-left: 150px;
+        margin-top: -70px;
+    }
+    .aboutus{
+        max-height: 1000px;
+    }
+    .paragraph{
+
+    }
+    .aboutus img{
+        display: none;
     }
 }
 @media screen and (max-width: 1024px){
@@ -53,7 +66,7 @@
     display: flex; /*Enables flexible layout option*/
     align-items: center; /*item will wrap into a new line whn reaching to end of container*/
     justify-content: center; /*Align items along main axis and centers with the main container*/
-    padding: 0px;
+    padding: 40px;
     margin-top:0px;
 }
 .aboutus img{
@@ -66,9 +79,9 @@
 .paragraph{
     font-size: 20px;
     padding-left: 20px;
-    
+    width: 100%;
+    text-align: center;
 }
-
 .aboutus button{
     color: black;
     text-decoration: none;
