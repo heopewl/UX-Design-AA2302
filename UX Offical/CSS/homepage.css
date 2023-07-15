@@ -29,9 +29,9 @@
     width: 60%;  
     max-width: 70%;
     position: absolute;
-    margin-top: -80px;
+    margin-top: -200px;
     padding:20px;
-    margin-left: 380px;
+    margin-left: 400px;
     opacity: .7;
     border-radius: 5px;
     
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 768px){
     .searchbarcontainer{
-        margin-top: -150px;
+        margin-top: -158px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -79,30 +79,40 @@
         right: 70px;
         padding: 15px;
         width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+       
+       
         
     }
     .searchbarcontainer input{
-        width: 130px;
         margin-top: 10px;
         margin-bottom: 7px;
+        margin-left: 60px;
+        padding: 0px;
     }
     .special{
-        margin-left: -10px;
+       padding: 0px;
+       display: inline-block;
     }
     .searchbarcontainer label{
         font-size:15px;
     }
-    .searchbarcontainer .arrow-button{
-       
-    }
     .aboutus{
-        max-height: 1000px;
+       flex-wrap: wrap;
+        position: relative;
+        display: block;
     }
-
     .aboutus img{
-        display: none;
+        
+       
+        margin-top: 10px;
+    }
+    .aboutus p{
+        width: 100%;
+       text-align: center;
+    }
+    .aboutusimg{
+        margin-right: 100px;
+        padding-top:30px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -115,25 +125,23 @@
     color: white;
 }
 .aboutus{
-    background-color:#F4F5EF;
-    display: flex; /*Enables flexible layout option*/
+    display: flex;     /*Enables flexible layout option*/
+    text-align: left;
     align-items: center; /*item will wrap into a new line whn reaching to end of container*/
     justify-content: center; /*Align items along main axis and centers with the main container*/
     padding: 40px;
-    margin-top:0px;
+    margin-top:50px;
 }
-.aboutus img{
-    max-width: 100%;
-    max-height:100%;
-    padding-left: 30px;
-
+.aboutusimg{
+    margin-left: 100px; 
 }
 
 .paragraph{
     font-size: 20px;
-    padding-left: 20px;
-    width: 100%;
-    text-align: center;
+    padding-left: 0px;
+    width: 30%;
+    text-align: left;
+    
 }
 .aboutus button{
     color: black;
@@ -147,39 +155,6 @@
     border: none;
 }
 
-.specialofferhead p{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-top:80px;
-}
-
-.offerscontainer{
-    display:grid;
-    grid-template-rows: 200px 1fr;
-    border: 1px solid grey;
-    border-radius: 25px;
-    align-items:left;
-    flex-grow:0.5;
-    flex-flow: column nowrap;
-    display:flex;
-    width: 50%;
-    margin-left:450px;
-    padding:6px;
-}
-
-.offerscontainer p{
-    padding-top:100px;
-    padding-left:140px;
-}
-
-.offerscontainer img{
-    width:260px;
-    height:150px;
-    position: relative;
-    left:600px;
-    bottom:100px;
-}
 
 .offerscontainer button{
     padding: 0;
@@ -243,4 +218,13 @@
     font-size:15px;
     padding:30px;
     border: none;
+}
+.eventsContainer{
+    display: flex;     /*Enables flexible layout option*/
+    text-align: left;
+    align-items: center; /*item will wrap into a new line whn reaching to end of container*/
+    justify-content: center; /*Align items along main axis and centers with the main container*/
+    padding: 40px;
+    margin-top:50px;
+    background-color: white;
 }
