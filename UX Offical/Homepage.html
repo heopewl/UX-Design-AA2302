@@ -11,13 +11,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <title>Home</title><!-- REPLACE title as what u want -->
 </head>
 <body>
   
   <nav>
     <div class="logo">
-      <a class="NavText" href="Test.html">
+      <a class="NavText" href="Homepage.html">
             <h4>The LOGO HERE</h4>
    </a>
     <!-- REPLACE the h4 with LOGO please -->
@@ -53,18 +54,37 @@
     </div>
     
   </nav>
-  <div class="bigimage">
-    <image src="ImageNVideo/an image.jpg" style="aspect-ratio:900/506; width:100%; max-height:70vh;">
+<a href="Resturant.html">
+  <div class="bigimage" alt="main-image">
+</a>
+    <image src="ImageNVideo/an image.jpg" style="aspect-ratio:900/506; width:100%; max-height:60vh;">
+      <div class="overlay">
+        <p style="text-align: left;"><span style="font-size: 30;">Where luxury meets paradise</span><br>
+         <span> Experience true opulence and<br> personalized service at its finest</span><br>
+         immerse yourself in blablahbla <br>
+        <a href="Bookingpage">
+         <button id="bookbutton" class="Bookingbutton">Book here</button>
+         </a>
+        </p>
+        
+      
+      </div>
       <div class="searchbarcontainer">
+        <div class="incontainer">
         <label for="checkin" id="checkindate" style="padding-left: 10px;">Check in date:</label>
-        <input type="date"  name="trip-start"  value="2023-08-15" min="2023-01-01" max="2023-12-31" style="margin-left: 10px;height: 40px; font-size: 18px;" > 
-        <label for="checkout" id="checkoutdate" style="padding-left: 10px;" >Check out date:</label> <!--Need to add some js statement to verify the dates entered here-->
-        <input type="date" name="trip-end"  value="2023-08-16" min="2023-08-15" max="2023-12-31" style="margin-left: 10px;height: 40px;font-size: 18px;">
-        <button type="submit"><i class="fa fa-search"></i></button>
+        <input type="date"  name="trip-start"  value="2023-08-15" min="2023-01-01" max="2023-12-31" style="margin-left: 10px;height: 30px; font-size: 17px;" > 
+        <label for="checkout" id="checkoutdate" style="padding-left: 10px;" class="special" >Check out date:</label> <!--Need to add some js statement to verify the dates entered here-->
+        <input type="date" name="trip-end"  value="2023-08-16" min="2023-08-15" max="2023-12-31" style="margin-left: 10px;height: 30px;font-size: 17px;">
+        <div class="arrow-button" id="arrowbutton">
+        <span style="font-size: 24px;"></span>
+        </div>
+        </div>
         
       </div>
   </div>
- 
+ <div class="overlay">
+
+ </div>
   
   <div class="aboutus">
       <p class="paragraph"><strong style="font-size: 30px;">About us</strong><br><br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

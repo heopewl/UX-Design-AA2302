@@ -1,53 +1,106 @@
 
+.arrow-button {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: black;
+    margin-left: 5px;
+  }
+.arrow-button span {
+    display: inline-block;
+    margin-left: 5px;
+    
+  }
+  .arrow-button span::after{
+    content: "\003E";
+    color: white;
+  }
+  .arrow-button:hover{
+    background-color: grey;
+  }
+
 
 .searchbarcontainer{
     background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
     width: 60%;  
     max-width: 70%;
     position: absolute;
-    margin-top: -450px;
-    padding: 30px;
-    margin-left: 360px;
+    margin-top: -80px;
+    padding:20px;
+    margin-left: 380px;
     opacity: .7;
+    border-radius: 5px;
     
+}
+.incontainer{
+    margin-right: 50px ;
+
+}
+.Bookingbutton{
+  padding: 10px 20px;
+  background-color: gold;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Bookingbutton.active{
+
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -70%); /* shift the text overlay by 50% of its own width and height to center it perfectly.*/
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin-top: 100px;
+
+}
+.overlay p{
+    font-size:20px;
+    margin-bottom: 350px;
+    margin-right: 400px;
 }
 
-.searchbarcontainer button{
-    margin-left: 1px;
-    height: 43px;
-    width: 50px;
-    border-left: none;
-    cursor: pointer; background: #2196F3;
-}
-.searchbarcontainer input{
-    display: flex;
-    
-   
-}
 @media screen and (max-width: 768px){
     .searchbarcontainer{
-        margin-top: -120px;
-        display: block;
+        margin-top: -150px;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         padding-right: 10px;
-        margin-right: 100px;
+        right: 70px;
         padding: 15px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         
     }
-    .searchbarcontainer button{
-        margin-left: 150px;
-        margin-top: -70px;
+    .searchbarcontainer input{
+        width: 130px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+    .special{
+        margin-left: -10px;
+    }
+    .searchbarcontainer label{
+        font-size:15px;
+    }
+    .searchbarcontainer .arrow-button{
+       
     }
     .aboutus{
         max-height: 1000px;
     }
-    .paragraph{
 
-    }
     .aboutus img{
         display: none;
     }
