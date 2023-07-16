@@ -1,8 +1,9 @@
-.HeaderPic{
+.TitleOnPic{
 
-  width: auto;
+  width: 100%;
+  height: auto;
   overflow: hidden;
-  height:400px;
+  /* height:400px; */
     
   background-image:url("ImageNVideo/ResturantBG.jpg");
   background-position:center ;
