@@ -9,10 +9,11 @@
 .HeaderIMG{
   width: 100%;
   height: auto;
+  background-image: url("2ndResturantBG.jpg");
 }
 
 .PicTitle{
-  position: absolute;
+
   font-size: 10em;
   font-weight: bold;
   color: white;
@@ -25,7 +26,6 @@
 
 @media screen and (max-width: 1024px){
   .PicTitle{
-    
     font-size: 10em;
   }
 }
