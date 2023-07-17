@@ -87,7 +87,6 @@
         margin-bottom: 7px;
         margin-left: 60px;
         padding: 0px;
-        
     }
     .special{
        padding: 0px;
@@ -95,7 +94,6 @@
     }
     .searchbarcontainer label{
         font-size:15px;
-        
     }
     .aboutus{
        flex-wrap: wrap;
