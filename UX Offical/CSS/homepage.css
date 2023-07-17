@@ -1,6 +1,4 @@
-.bigimage{
-    max-height:61vh;
-}
+
 .arrow-button {
     display: inline-block;
     border: 1px solid white;
@@ -72,7 +70,7 @@
 
 @media screen and (max-width: 768px){
     .searchbarcontainer{
-        margin-top: -200px;
+        margin-top: -158px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -81,7 +79,7 @@
         padding: 15px;
         width: 80%;
        
-    
+       
         
     }
     .searchbarcontainer input{
@@ -103,9 +101,6 @@
        flex-wrap: wrap;
         position: relative;
         display: block;
-    }
-    .bigimage{
-        height:30vh;
     }
     .aboutus img{
         
