@@ -20,26 +20,43 @@
     background-color: grey;
   }
 
-
+.igContainer{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto;
+}
 .searchbarcontainer{
-    background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 60%;  
     max-width: 70%;
-    position: relative;
-    overflow: hidden;
-    margin-top: -200px;
-    padding:20px;
-    margin-left: 300px;
-    opacity: .7;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
-    
+    margin-top: -450px; 
+    vertical-align: top;
 }
+
 .incontainer{
     margin-right: 50px ;
-
+    background-color: rgba(221, 141, 5, 0.7);
+    padding: 20px;
+    border-radius:10px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.textInPicture p{
+    margin-bottom: 80px;
+    color: white;
+    font-size: 20px;
 }
 .Bookingbutton{
   padding: 10px 20px;
@@ -52,41 +69,40 @@
 }
 
 
-.overlay{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -70%); /* shift the text overlay by 50% of its own width and height to center it perfectly.*/
-    text-align: center;
-    color: #fff;
-    display: block;
-    margin-top: 100px;
-
-}
-.overlay p{
-    font-size:20px;
-    margin-bottom: 350px;
-    margin-right: 400px;
-}
 
 @media screen and (max-width: 768px){
     .searchbarcontainer{
-        margin-top: -158px;
+        margin-top: -350px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        
         padding-right: 10px;
         right: 70px;
-        padding: 15px;
+        padding: 10px;
         width: 80%;
        
-       
         
+    }
+    .bigimage img{
+        height: 50%;
+    }
+    .textInPicture p{
+        margin-bottom: 80px;
+        color: white;
+        font-size: 16px;
+        margin-top: -30px;
+        margin-left: 30px;
+
+    }
+    .incontainer{
+        margin-top: -55px;
+        width: 59%;
+        margin-right: 230px;
+        margin-left: 50px;
     }
     .searchbarcontainer input{
         margin-top: 10px;
         margin-bottom: 7px;
-        margin-left: 60px;
+        margin-left: 0px;
         padding: 0px;
     }
     .special{
@@ -98,17 +114,15 @@
     }
     .aboutus{
        flex-wrap: wrap;
-        position: relative;
         display: block;
     }
     .aboutus img{
-        
-       
         margin-top: 10px;
     }
     .aboutus p{
         width: 100%;
-       text-align: center;
+        margin-top: -90px;
+        text-align: center;
     }
     .aboutusimg{
         margin-right: 100px;
@@ -130,7 +144,7 @@
     align-items: center; /*item will wrap into a new line whn reaching to end of container*/
     justify-content: center; /*Align items along main axis and centers with the main container*/
     padding: 40px;
-    margin-top:50px;
+    margin-top:150px;
 }
 .aboutusimg{
     margin-left: 100px; 
@@ -177,7 +191,7 @@
 }
 
 .bottom{
-    display: flex;
+    
     flex-flow: row nowrap;
     padding-top: 5%;
     padding-left: 5%;
@@ -199,7 +213,7 @@
 
 .bottom img{
     float: right;
-    position: relative;
+    
     height: 300px;
     width: 500px;
     margin-left: 150px;

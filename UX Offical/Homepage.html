@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Try reactive 1</title>
-  <link rel="stylesheet" href="CSS/Reactive.css">
+  <link rel="stylesheet" href="CSS/NewNavbar.css">
   <link href="CSS/homepage.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,50 +15,28 @@
   <title>Home</title><!-- REPLACE title as what u want -->
 </head>
 <body style="background-color: #FFFFF0;">
-  
-  <nav>
-    <div class="logo">
-      <a class="NavText" href="Homepage.html">
-            <h4>The LOGO HERE</h4>
-   </a>
-    <!-- REPLACE the h4 with LOGO please -->
-    </div>
+      <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkboxbutton">
+            <i class="fa fa-bars" style="font-size:24px; margin-top: 30px;"></i>
+          </label>
+          <label class ="logo">The logo here</label>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">rooms</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">facilities</a></li>
+            <li><a href="#" class="navbutton">Book now</a></li>
+            </ul>
+                  </nav>
 
-    <ul class="nav-links">
-      <li>
-        <a class="NavText" href="#">About</a>
-      </li>
-
-      <li>
-        <a class="NavText" href="#">Room</a>
-      </li>
-
-      <li>
-        <a class="NavText" href="Resturant.html">Dining</a>
-      </li>
-
-      <li>
-        <a class="NavText" href="#">Facilities</a>
-      </li>
-
-      <li class="BookRoomBorder"> 
-        <a href="#" class="Booknow">Book Room</a>
-      </li>
-
-    </ul>
-
-    <div class ="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-    
-  </nav>
-<a href="Resturant.html">
   <div class="bigimage" alt="main-image">
-</a>
     <image src="ImageNVideo/1080p img.jpg" style="aspect-ratio:900/506; width:100%; max-height:60vh;">
-      <div class="overlay">
+    </div>
+      
+    <div class="searchbarcontainer">
+      <div class="textInPicture">
         <p style="text-align: left;"><span style="font-size: 30;">Where luxury meets paradise</span><br>
          <span> Experience true opulence and<br> personalized service at its finest</span><br>
          immerse yourself in blablahbla <br>
@@ -66,22 +44,18 @@
          <button id="bookbutton" class="Bookingbutton">Book here</button>
          </a>
         </p>
-        
-      
-      </div>
-      <div class="searchbarcontainer">
-        <div class="incontainer">
-        <label for="checkin" id="checkindate" style="padding-left: 10px;">Check in date:</label>
+      <div class="incontainer">
+        <label for="checkin" id="checkindate" style="padding-left: 10px;color: black;">Check in date:</label>
         <input type="date"  name="trip-start"  value="2023-08-15" min="2023-01-01" max="2023-12-31" style="margin-left: 10px;height: 30px; font-size: 17px;" > 
-        <label for="checkout" id="checkoutdate" style="padding-left: 10px;" class="special" >Check out date:</label> <!--Need to add some js statement to verify the dates entered here-->
+        <label for="checkout" id="checkoutdate" style="padding-left: 10px;color: black  ;" class="special" >Check out date:</label> <!--Need to add some js statement to verify the dates entered here-->
         <input type="date" name="trip-end"  value="2023-08-16" min="2023-08-15" max="2023-12-31" style="margin-left: 10px;height: 30px;font-size: 17px;">
         <div class="arrow-button" id="arrowbutton">
         <span style="font-size: 24px;"></span>
         </div>
         </div>
-        
       </div>
-  </div>
+    </div>
+  
  
   
   <div class="aboutus">
@@ -97,7 +71,7 @@
     <img src="ImageNVideo/aboutus.jpg" class="aboutusimg">
   </div>  
   <div class="eventsContainer">
-    <p>hashahsdasd</p>
+    <p>Events container</p>
     </div><br><br>
     <div class="bottom">
       <p class="sectionwords"><strong style="font-size:30px;">Catering</strong><br><br><br><br>
