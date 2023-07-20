@@ -5,15 +5,21 @@
 }
 
 .Header h1{
-  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .HeaderIMG{
   width: 100%;
   height: auto;
-  
 }
 
+.Container_ALL{
+  align-content: center;
+}
 
 .ResturantIntro{
   width: 100%;
@@ -29,11 +35,6 @@
   margin: auto;
   border-bottom: 3px solid black;
 }
-.WelcomeResturant{
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
 
 
 
@@ -41,13 +42,18 @@
   .PicTitle{
     font-size: 10em;
   }
+  .Title.active{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px){
   .WelcomeResturant{
     font-size: 25px;
   }
-
+  .Title.active{
+    display: none;
+  }
 }
 
 
