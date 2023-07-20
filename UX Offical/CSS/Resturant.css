@@ -5,7 +5,10 @@
 }
 
 .Header h1{
-  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .HeaderIMG{
@@ -13,6 +16,7 @@
   height: auto;
   
 }
+
 
 
 .ResturantIntro{
