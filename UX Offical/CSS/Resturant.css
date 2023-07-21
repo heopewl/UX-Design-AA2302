@@ -50,6 +50,8 @@
     display: none;
     transition: transform 0.5s ease-in;
   }
+
+
 }
 
 
@@ -134,3 +136,4 @@ body{
   border: black solid 3px;
   background-color: lightgray;
 }
+
