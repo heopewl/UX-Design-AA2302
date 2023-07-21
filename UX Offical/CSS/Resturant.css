@@ -12,6 +12,7 @@
   color: white;
   padding-left: 15px;
   border-left: white 3px solid;
+  font-size: 8em;
 }
 
 .HeaderIMG{
@@ -126,9 +127,10 @@ body{
   border: 3px;
   padding: 10px;
   background-color: #deebc6;
+  font-weight: bold;
 }
 
 .book_button:hover{
   color: black;
-  border: black solid 3px;
+  border: black solid 3.5px;
 }
