@@ -124,6 +124,28 @@
         margin-right: 100px;
         padding-top:30px;
     }
+    .Dining{
+        flex-wrap: wrap;
+        display: block;
+    }
+    
+    .Dining p{
+        width: 100%;
+        margin-top: -90px;
+        text-align: center;
+    }
+    .Dining img{
+        width: 70%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right:auto ;
+       
+    }
+    .Diningimg{
+        margin-right: 100px;
+        padding-top:30px;
+       width: 100%;
+    }
     .eventsContainer{
         flex-wrap: wrap;
         display: block;
@@ -131,12 +153,47 @@
         justify-content: center;
         width: 100%;
     }
+    .eventsContainer{
+         width: 100%;
+         text-align: center;
+         flex-wrap: wrap;
+        display: block;
+    }
     .eventsContainer p{
         width: 100%;
-        text-align:center ;
+        margin-top: -90px;
+        text-align: center;
     }
+    .eventsCard1{
+       width: 100%;
+    }
+    .cardcontainer{
+        flex-wrap: wrap;
+        
+    }
+    .eventsCard3 {
+       width: auto;
+    }
+    .eventsCard2{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
     }
     
+    .eventsCard2{
+        width: 100%;
+    }
+    .eventsCard3 {
+        padding-bottom: 15px;
+    }
+    .Dining p{
+        text-align: center;
+    }
+    .Dining img{
+       margin-right: auto;
+       margin-left: auto;
+    }
+}
 @media screen and (max-width: 1024px){
     .searchbarcontainer{
         margin-left: 100px;
@@ -178,14 +235,103 @@
     border: none;
 }
 
+.aboutus button:hover{
+    background-color: grey;
+}
 
-.offerscontainer button{
-    padding: 0;
-    margin:0;
-    width:15%;
-    position: relative;
-    bottom:80px;
-    left:70px;
+.eventsContainer{
+    display: flex;     /*Enables flexible layout option*/
+    text-align: left;
+    align-items: center; /*item will wrap into a new line whn reaching to end of container*/
+    justify-content: center; /*Align items along main axis and centers with the main container*/
+    padding: 40px;
+    margin-top:150px;
+   
+}
+.eventsContainer{
+   margin-right: 500px;
+}
+
+.eventsCard1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 300px;
+    margin: 40px;
+    margin-top: 80px;
+}
+.eventsCard1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.eventsContainer img{
+    border-radius: 5px 5px 0 0;
+}
+p{
+    font-family: 'Open Sans', sans-serif
+}
+.flexcontainer{
+    margin-left: 300px;
+   
+}   
+.minicontainer{
+    text-align: center;
+    padding:10px;
+   
+}
+.eventsCard2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.eventsCard3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.eventsCard2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 300px;
+    margin: 40px;
+    margin-top: 80px
+}
+.eventsCard2 img{
+    width: 100%;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    margin-right: auto;
+    margin-left: auto;
+}
+.eventsCard3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 300px;
+    margin: 40px;
+    margin-top: 80px;
+    
+}
+.eventsCard3 img{
+   height: 75%;
+   
+}
+hr{
+    margin:10px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+.Diningimg{
+    margin-left: 200px; 
+    width: 60%;
+}
+
+.Dining button{
     color: black;
     text-decoration: none;
     font-size: 16px;
@@ -195,110 +341,28 @@
     font-size:15px;
     padding:20px;
     border: none;
-    padding-bottom: 2%;
-    margin-left: 110px;
 }
-
-.bottom{
-    
-    flex-flow: row nowrap;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 10px;
-    background-color:beige;
-
+.Dining button:hover{
+   background-color: grey;
 }
-.sectionwords{
-    font-size: 20px;
-    text-align:center;
-    width: 50%;
-    padding-top: 0px;
-    padding-right:150px;    
-    margin-bottom: 100px;
-
-   
-
-}
-
-.bottom img{
-    float: right;
-    
-    height: 300px;
-    width: 500px;
-    margin-left: 150px;
-    margin-bottom: 40px;
-    padding-left: 0px;
-   
-}
-
-.bottom button{
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 12px;
-    font-size:15px;
-    background-color:#deebc6 ;
-    font-size:15px;
-    padding:30px;
-    border: none;
-}
-.eventsContainer{
-    display: flex;     /*Enables flexible layout option*/
-    align-items: center; /*item will wrap into a new line whn reaching to end of container*/
-    justify-content: center; /*Align items along main axis and centers with the main container*/
+.Dining{
+    display: flex;    
+    align-items: center; 
+    justify-content: center; 
     padding: 40px;
-    background-color: white;
-}
-.eventsContainer{
-    margin-right: 530px;
-}
-.eventsCard1{
-    display: inline-block;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20%;
-    border-radius: 5px;
-    background-color: white;
-    vertical-align: bottom;
-    margin-left: 200px;
-    margin-top: 80px;
-}
-.eventsCard1:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.eventsContainer img{
-    border-radius: 5px 5px 0 0;
+    margin-top:150px;
 }
 
-.flexcontainer{
-    margin-left: 300px;
-   
-}   
-.minicontainer{
-    text-align: center;
-    padding:10px;
-}
-
-.eventsCard2{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20%;
-    border-radius: 5px;
-    background-color: white;
-    vertical-align: bottom;
-    margin-left: 100px;
-    margin-top: 80px;
-}
-.cardcontainer{
+.Diningimg{
     display: flex;
-}
-.eventsCard3{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20%;
-    border-radius: 5px;
-    background-color: white;
-    vertical-align: bottom;
-    margin-left: 100px;
-    margin-top: 80px;
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 30%;
+    max-width: 100%; /* Set a maximum width of 100% */
+    min-height: 200px; /* Maintain aspect ratio */
+    min-width: 250px;
+    margin-right: 00px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+   
 }
