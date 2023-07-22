@@ -24,6 +24,7 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 20px;
+    font-family: 'Lato', sans-serif;
 }
 nav ul li{
     display: inline-block;
@@ -41,7 +42,7 @@ nav ul li a{
 }
 
 a.active,a:hover{
-    
+    background-color: #DAA520;
     transition: .5s;
 }
 .checkboxbutton{
