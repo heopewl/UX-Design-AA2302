@@ -120,7 +120,7 @@ body{
   width: 100%;
   height: auto;
   padding-top: 20px;
-
+  border-bottom: solid black 3px ;
 }
 
 .IntroPic{
@@ -136,6 +136,7 @@ body{
 .Restaurant_Text_Intro{
   text-align: center;
   text-decoration: underline;
+  padding-top:30px;
 }
 
 .Dining_Description{
@@ -148,6 +149,16 @@ body{
   text-align: center;
   font-size: 20px;
   min-height: 400px;
+}
+
+.menu_container{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  border-bottom:black solid 3px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 1024px){
@@ -165,7 +176,7 @@ body{
     height: 400px;
     width: 90%;
     max-width: 500px;
-    border: solid red 3px;
+
     aspect-ratio: 1/1;
     max-height: 400px;
   }
@@ -192,7 +203,7 @@ body{
     height: 400px;
     width: 100%;
     max-width: 500px;
-    border: solid red 3px;
+
     aspect-ratio: 1/1;
     max-height: 400px;
     margin-left: 0;
