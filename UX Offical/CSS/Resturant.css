@@ -51,6 +51,13 @@
     transition: transform 0.5s ease-in;
   }
 
+  .container_tally{
+    display:block ;
+    justify-content: center;
+    flex-wrap: none;
+    margin: auto;
+  }
+  
 
 }
 
@@ -70,6 +77,13 @@ body{
   background-color: #ffffff;
 }
 
+.container_tally{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 30px;
+}
+
 .card-container{
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +94,7 @@ body{
 .card{
   text-align: center;
   padding: 25px 10px 25px 10px;
-  width: 600px;
+  width: 440px;
   height: auto;
   margin: 0 10px;
   border: 1px solid #ccc;
