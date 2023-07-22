@@ -41,8 +41,7 @@ p{
 .centeredlist{
     margin-right: 100px;
     text-align: center;
-   
-   
+  
 }
 .centeredlist ul{
     text-align: center;
@@ -87,7 +86,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: gold;
     color: white;
     padding: 12px 10px;
     border: none;
