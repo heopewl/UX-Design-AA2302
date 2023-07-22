@@ -159,6 +159,7 @@ body{
   border-bottom:black solid 3px;
   padding-bottom: 20px;
   padding-top: 20px;
+  background-color: antiquewhite;
 }
 
 @media screen and (max-width: 1024px){
