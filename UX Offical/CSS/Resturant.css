@@ -1,3 +1,7 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .Header{
   width: 100%;
   height: auto;
@@ -28,38 +32,6 @@
 
 
 
-@media screen and (max-width: 1024px){
-  .Header h1{
-    font-size: 60px;
-  }
-  .Title.active{
-    display: none;
-    animation-name: move;
-    animation-delay: 0.5s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-
-}
-
-@media screen and (max-width: 768px){
-  .Header h1{
-    font-size: 40px;
-  }
-  .Title.active{
-    display: none;
-    transition: transform 0.5s ease-in;
-  }
-
-  .container_tally{
-    display:block ;
-    justify-content: center;
-    flex-wrap: none;
-    margin: auto;
-  }
-  
-
-}
 
 
 
@@ -128,31 +100,101 @@ body{
 }
 
 
-.Dining_Description{
-  border: solid red 3px;
-  width:80%;
-  height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: auto;
-}
-
 .book_button{
   text-decoration: none;
   color: black;
-  border: 3px;
+  border: 3px solid black ;
   padding: 10px;
   background-color: #deebc6;
   font-weight: bold;
 }
 
 .book_button:hover{
-  border: black solid 3px;
-  background-color: lightgray;
+  border: goldenrod solid 3px;
+  background-color: white;
+  color: black;
 }
 
 
-.IntroPic{
+.intro_container{
+  width: 100%;
   height: auto;
-  width: 500px;
+  padding-top: 20px;
+
+}
+
+.IntroPic{
+  height: 400px;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1/1;
+  max-height: 400px;
+  float: left;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+.Restaurant_Text_Intro{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.Dining_Description{
+  min-width: 200px;
+  text-align: center;
+}
+
+.intro-textsize{
+  min-width: 200px;
+  text-align: center;
+  font-size: 20px;
+  min-height: 400px;
+}
+
+@media screen and (max-width: 1024px){
+  .Header h1{
+    font-size: 60px;
+  }
+  .Title.active{
+    display: none;
+    animation-name: move;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .IntroPic{
+    height: 400px;
+    width: 90%;
+    max-width: 500px;
+    border: solid red 3px;
+    aspect-ratio: 1/1;
+    max-height: 400px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .Header h1{
+    font-size: 40px;
+  }
+  .Title.active{
+    display: none;
+    transition: transform 0.5s ease-in;
+  }
+
+  .container_tally{
+    display:block ;
+    justify-content: center;
+    flex-wrap: none;
+    margin: auto;
+  }
+  
+  .IntroPic{
+    height: 400px;
+    width: 100%;
+    max-width: 500px;
+    border: solid red 3px;
+    aspect-ratio: 1/1;
+    max-height: 400px;
+    margin-left: 0;
+  }
 }
