@@ -68,6 +68,7 @@ body{
   margin: 0 10px;
   border: 1px solid #ccc;
   box-shadow: 0 1px 3px #ccc;
+  border-radius: 5px;
 }
 
 .card:hover{
