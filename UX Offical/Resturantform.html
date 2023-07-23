@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Try reactive 1</title>
+  <link rel="stylesheet" href="CSS/NewNavbar.css">
+  <link rel="stylesheet" href="CSS/Resturantforms.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Dining</title><!-- REPLACE title as what u want -->
+</head>
+<body style="background-color: #FFFFF0;">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkboxbutton">
+            <i class="fa fa-bars" style="font-size:24px; margin-top: 30px;"></i>
+        </label>
+        <label class ="logo">The logo here</label>
+        <ul>
+            <li><a class="active" href="Homepage.html">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">rooms</a></li>
+            <li><a href="Resturant2.html">dining</a></li>
+            <li><a href="#">facilities</a></li>
+            <li><a href="#" class="navbutton">Book now</a></li>
+        </ul>
+    </nav>
+
+    <div class = "form_container">
+        <h1 class="form_title">Resturant Reservation</h1>
+        <form action="Confirmation.html" method="get">
+            <div class="questions_container">
+                <label for="ReservationDates">Reservation Date:</label>
+                <input type="date" id="ReservationDates" name="ReservationDates" value="YYYY-MM-DD" min="2023-01-01" required>
+            </div>
+            <div class="questions_container">
+                <label for="ReservationTiming">Reservation Timing:</label>
+                <select list="ReservationTiming" id="ReservationTiming" name="ReservationTiming" required>
+                    <option value="4:00pm">4:00pm</option>
+                    <option value="4:30pm">4:30pm</option>
+                    <option value="5:00pm">5:00pm</option>
+                    <option value="5:30pm">5:30pm</option>
+                    <option value="6:00pm">6:00pm</option>   
+                </select>
+            </div>
+
+            <div class="questions_container">
+                <label for="NumberofGuests">Number of Guests:</label>
+
+                <select list="NumberofGuests" id="NumberofGuests" name="NumberofGuests" required>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>   
+                </select>
+            </div>
+
+            <div class="questions_container">
+                <label for="Title">Title:</label>
+
+                <select list="Title" id="Title" name="Title" required>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Dr.">Dr.</option>   
+                </select>
+            </div>
+
+            <div class="questions_container">
+                <label for="First Name">First Name:</label>
+                <input type="text" name="First Name" id="First Name" placeholder="First Name" required> 
+            </div>
+
+            <div class="questions_container">
+                <label for="Last Name">Last Name:</label>
+                <input type="text" name="Last Name" id="Last Name" placeholder="Last Name"required> 
+            </div>
+
+            <div class="questions_container">
+                <label for="Email">Email:</label>
+                <input type="Email" name="Email" id="Email" placeholder="john@gmail.com" required> 
+            </div>
+
+
+            <div class="questions_container">
+                <label for="Phone Number">Phone Number:</label>
+                <input type="tel" name="Phone Number" id="Phone Number" placeholder="+65 XXXX XXXX" required> 
+            </div>
+
+            <div class="questions_container">
+                <input type="submit" value="Make Reservation">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+          <p>Footer here Aiman doing</p>
+        </div>
+    </footer>
+</body>
+</html>
+    
