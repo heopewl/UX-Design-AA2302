@@ -30,11 +30,21 @@
             <li><a href="#" class="navbutton">Book now</a></li>
         </ul>
     </nav>
-    
+
   
     <div class = "form_container">
+        </script>
         <h1 class="form_title">Restaurant Reservation</h1>
-        <form action="Homepage.html" method="get">
+        <form onsubmit="alert('Successful Booking');" action="Homepage.html" method="get">
+            <div class="questions_container">
+                <label for="ResturantSelection">Select Restaurant:</label>
+                <select list="ResturantSelection" id="ResturantSelection" name="ResturantSelection" required>
+                    <option value="Restaurant 1">Restaurant 1</option>
+                    <option value="Restaurant 2">Restaurant 2</option>
+                    <option value="Restaurant 3">Restaurant 3</option>
+                    <option value="Restaurant 4">Restaurant 4</option>
+                </select>
+            </div>
             <div class="questions_container">
                 <label for="ReservationDates">Reservation Date:</label>
                 <input type="date" id="ReservationDates" name="ReservationDates" value="YYYY-MM-DD" min="2023-01-01" required>
@@ -97,7 +107,6 @@
 
             <div class="questions_container">
                 <input type="submit" value="Make Reservation">
-            </div>
         </form>
     </div>
 
