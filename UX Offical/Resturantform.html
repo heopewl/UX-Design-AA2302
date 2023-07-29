@@ -35,7 +35,7 @@
     <div class = "form_container">
         </script>
         <h1 class="form_title">Restaurant Reservation</h1>
-        <form onsubmit="alert('Successful Booking');" action="Homepage.html" method="get">
+        <form onsubmit="alert('Successful Booking');">
             <div class="questions_container">
                 <label for="ResturantSelection">Select Restaurant:</label>
                 <select list="ResturantSelection" id="ResturantSelection" name="ResturantSelection" required>
@@ -109,6 +109,19 @@
                 <input type="submit" value="Make Reservation">
         </form>
     </div>
+    
+    <script>
+
+        const form = document.querySelector('form');
+        form.addEventListener('submit',(e)=>{
+            e.preventDefault();
+            const formdata = new FormData(form);
+            console.log(formdata);
+            for (item of formdata){
+                console.log(item);
+            }
+        })
+    </script>
 
     <footer>
         <div class="footer-container">
