@@ -96,7 +96,7 @@ a.active,a:hover{
         display: block;
         margin: 50px 0;
         line-height: 30px;
-       
+        margin-right: 80px;
         
     }
     nav ul li a{
