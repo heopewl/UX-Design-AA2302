@@ -31,8 +31,82 @@
             <li><a href="#" class="navbutton">Book now</a></li>
         </ul>
     </nav>
+        <div class="form_container">
+            <div class="form_title">Restaurant Reservation</div>
+                <div class="content">
+                    <form onsubmit="alert('Successful Booking');">
+                        <div class="user-details">
+                            <div class = "input-box">
+                                <span class="details">Restaurant:</span>
+                                <select list="ResturantSelection" id="ResturantSelection" name="ResturantSelection" required>
+                                    <option value="Restaurant 1">Restaurant 1</option>
+                                    <option value="Restaurant 2">Restaurant 2</option>
+                                    <option value="Restaurant 3">Restaurant 3</option>
+                                    <option value="Restaurant 4">Restaurant 4</option>
+                                </select>
+                            </div>
 
-    
+                            <div class = "input-box">
+                                <span class="details">Reservation Date:</span>
+                                <input type="date" id="ReservationDates" name="ReservationDates" value="YYYY-MM-DD" min="2023-01-01" required>
+                            </div>
+
+                            <div class = "input-box">
+                                <span class="details">Reservation Timing:</span>
+                                <select list="ReservationTiming" id="ReservationTiming" name="ReservationTiming" required>
+                                    <option value="4:00pm">4:00pm</option>
+                                    <option value="4:30pm">4:30pm</option>
+                                    <option value="5:00pm">5:00pm</option>
+                                    <option value="5:30pm">5:30pm</option>
+                                    <option value="6:00pm">6:00pm</option>   
+                                </select>
+                            </div>
+
+
+                            <div class = "input-box">
+                                <span class="details">Number of Guests:</span>
+                                <select list="NumberofGuests" id="NumberofGuests" name="NumberofGuests" required>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>   
+                                </select>
+                            </div>
+
+                            <div class = "input-box">
+                                <span class="details">Title:</span>
+                                <select list="Title" id="Title" name="Title" required>
+                                    <option value="Mr.">Mr.</option>
+                                    <option value="Ms.">Ms.</option>
+                                    <option value="Mrs.">Mrs.</option>
+                                    <option value="Miss">Miss</option>
+                                    <option value="Dr.">Dr.</option>   
+                                </select>
+                            </div>
+
+                            <div class = "input-box">
+                                <span class="details">Full Name:</span>
+                                <input type="text" placeholder="Enter Full Name" required>
+                            </div>
+
+                            <div class = "input-box">
+                                <span class="details">Email:</span>
+                                <input type="email" placeholder="john@gmail.com" required>
+                            </div>
+                            
+                            <div class = "input-box">
+                                <span class="details">Phone Number:</span>
+                                <input type="number" placeholder="+65 xxxx xxxx" required>
+                            </div>
+                        </div> 
+                        <div class="submit_button">
+                                <input type="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </body>
     
     <script>
 
