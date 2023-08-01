@@ -64,7 +64,12 @@ nav ul li a{
 #check{
     display: none;
 }
-
+.colorchange:hover{
+    background-color: #CCAA00;
+}
+.navbutton:hover{
+    background-color: #CCAA00;
+}
 @media (max-width:958px){
     label.logo{
         font-size: 30px;
@@ -99,7 +104,7 @@ nav ul li a{
     nav ul li a{
         font-size: 20px;
         color: black;
-        margin-right: 60px;
+        margin-right: 0px;
        
     }
     a:hover,a.active{
