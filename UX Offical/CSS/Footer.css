@@ -10,7 +10,7 @@ footer{
 .section1_footer{
     height: 200px;
     width: 100%;
-    background-color: #D78030;
+    background-color: #E6AD78;
     /* margin-top: 300px; */
     display: flex;
 }
@@ -61,7 +61,7 @@ footer h1.title{
     width: 100%;
     height: 80px;
     
-    background-color: #D78030;
+    background-color: #E6AD78;
     border-top: solid 6px #925030;
 }
 
