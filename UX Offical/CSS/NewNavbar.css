@@ -41,10 +41,7 @@ nav ul li a{
     
 }
 
-nav a.active,a:hover{
-    background-color: #DAA520;
-    transition: .5s;
-}
+
 .checkboxbutton{
     font-size:30px;
     color: white;
@@ -102,7 +99,7 @@ nav a.active,a:hover{
     nav ul li a{
         font-size: 20px;
         color: black;
-        margin-right: 0px;
+        margin-right: 60px;
        
     }
     a:hover,a.active{
