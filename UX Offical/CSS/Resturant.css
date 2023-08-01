@@ -130,6 +130,8 @@ body{
   float: left;
   margin-left: 10px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  
 }
 .Restaurant_Text_Intro{
   text-align: center;
@@ -206,5 +208,6 @@ body{
     aspect-ratio: 1/1;
     max-height: 400px;
     margin-left: 0;
+    padding-left: 0;
   }
 }
