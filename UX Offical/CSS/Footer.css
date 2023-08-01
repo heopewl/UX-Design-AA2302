@@ -122,7 +122,19 @@ footer h1.title{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background-color: #E6AD78;
 }
+
+
+.contactlinks:hover{
+    background-color: #E6AD78;
+}
+
+.mainsocialmedia:hover{
+    background-color: #E6AD78;
+}
+
+
 
 .contacttext{
     color: black;
@@ -138,6 +150,8 @@ footer h1.title{
     margin-top: 15px;
     font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 }
+
+
 
 @media screen and (max-width: 425px){
     .section1_footer{
