@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Payment webpage 1 (Date Selection) */
+
+
+/* Webpage header */
+.paymentwebpageheader{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 80px;
+    font-family: 'Montserrat';
+}
+
+
+/* Indication */
+
+.payment_indicator{
+    outline:auto;
+    width: 88%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+
+
+.date_indicator{
+    width: 20%;
+    height: 120px;
+    outline: red solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.date_selectionlink{
+    
+}
+
+.circle_step_counter_date {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #B28850;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_date_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.room_indicator{
+    width: 20%;
+    height: 120px;
+    outline: blue solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.circle_step_counter_room {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_room_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.guestcard_info_indicator{
+    width: 20%;
+    height: 120px;
+    outline: green solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.circle_step_counter_guest {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_guest_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+.confirmation_indicator{
+    width: 20%;
+    height: 120px;
+    outline: purple solid 5px;
+    display: inline-block;
+    flex: 1;
+}
+
+.circle_step_counter_confirmation {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_confirmation_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+/* Check-in & Check-out form */
+
+.form_body{
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    outline: auto;
+    display: flex;
+}
+
+.checkin_section{
+    outline: black solid 2px;
+    width: 50%;
+}
+
+.checkout_section{
+    outline: black solid 2px;
+    width: 50%;
+}
+
+
+
+.checkin_text_form{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.checkout_text_form{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+input.checkin_input{
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto';
+    border-radius: 4px;
+    border: none;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc
+    
+}
+
+input.checkout_input{
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto';
+    border-radius: 4px;
+    border: none;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc
+    
+}
+
+input.submit_button_for_checkinform{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    background-color: #B28850;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: black 3px solid;
+    border-radius: 2.5px;
+    transition: all 0.3s ease 0s;
+}
+
+input.submit_button_for_checkinform:hover{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    background-color: #d5a25e;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: black 3px solid;
+    border-radius: 2.5px;
+    
+}
+
+
+
+
+
+/* The receipt / important info */
+
+.important_infomation{
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-right: 125px;
+    border: solid 4px black;
+    border-radius: 2.5px;
+    float: right;
+}
+
+h1.information_header{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+

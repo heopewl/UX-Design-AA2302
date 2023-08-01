@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Payment webpage 1 (Date Selection) */
+
+
+/* Webpage header */
+.paymentwebpageheader{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 80px;
+    font-family: 'Montserrat';
+}
+
+
+/* Indication */
+
+.payment_indicator{
+    outline:auto;
+    width: 88%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+
+
+.date_indicator{
+    width: 20%;
+    height: 120px;
+    outline: red solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.date_selectionlink{
+    
+}
+
+.circle_step_counter_date {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #B28850;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_date_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.room_indicator{
+    width: 20%;
+    height: 120px;
+    outline: blue solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.circle_step_counter_room {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #B28850;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_room_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.guestcard_info_indicator{
+    width: 20%;
+    height: 120px;
+    outline: green solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.circle_step_counter_guest {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_guest_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+.confirmation_indicator{
+    width: 20%;
+    height: 120px;
+    outline: purple solid 5px;
+    display: inline-block;
+    flex: 1;
+}
+
+.circle_step_counter_confirmation {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_confirmation_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* Important information/receipt */
+
+.important_infomation{
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-right: 125px;
+    border: solid 4px black;
+    border-radius: 2.5px;
+    float: right;
+    background-color: #D3D3D3;
+}
+
+h1.information_header{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+
+.information_checkin_date{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.information_checkout_date{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.information_days_counter_date{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+/* Main Container to store all four rooms display */
+
+.container_rooms_selections{
+    utline: auto;
+    width: 53%;
+    height: 1000px;
+    margin-left: 90px;
+    margin-top: 150px;
+    float: left;
+}
+
+/* 1st Room container */  
+
+.garden_oasis_room_container_to_book{
+    utline: auto; 
+}
+
+.garden_oasis_room_header_to_book{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.garden_oasis_room_container_for_image_text{
+    display: flex;
+}
+
+
+.garden_oasis_room_image_to_book{
+    width: 400px;
+    border: 5px #B28850 solid;
+    border-radius: 2.5px;
+    
+}
+
+.garden_oasis_room_container_for_button_text{
+    display: flex;
+    flex-direction: column;
+    utline: red 5px solid;
+    background-color: #d3d3d3;
+}
+
+.garden_oasis_room_text_to_book{
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-size: 18px;
+    utline: auto;
+    text-align: center;
+}
+
+.garden_oasis_room_button{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #B28850;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    transition: all 0.3s ease 0s
+}
+
+.garden_oasis_room_button:hover{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #d5a25e;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+
+.garden_oasis_room_text_in_button{
+    margin-top: 12px;
+    color: black;
+    font-size: 23px  ;
+}
+
+
+
+/* 2nd Room container Ocean Retreat room */  
+
+.Ocean_Retreat_Room_container_to_book{
+    utline: auto;
+    margin-top: 50px;
+}
+
+.Ocean_Retreat_Room_header_to_book{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.Ocean_Retreat_Room_container_for_image_text{
+    display: flex;
+}
+
+
+.Ocean_Retreat_Room_image_to_book{
+    width: 400px;
+    border: 5px #B28850 solid;
+    border-radius: 2.5px;
+    
+}
+
+.Ocean_Retreat_Room_container_for_button_text{
+    display: flex;
+    flex-direction: column;
+    utline: red 5px solid;
+    background-color: #d3d3d3;
+}
+
+.Ocean_Retreat_Room_text_to_book{
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-size: 18px;
+    utline: auto;
+    text-align: center;
+}
+
+.Ocean_Retreat_Room_button{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #B28850;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    transition: all 0.3s ease 0s
+}
+
+.Ocean_Retreat_Room_button:hover{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #d5a25e;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+
+.Ocean_Retreat_Room_text_in_button{
+    margin-top: 12px;
+    color: black;
+    font-size: 23px  ;
+}
+
+
+
+
+
+
+/* 3rd Room container Premium Oasis Suite */  
+
+.Premium_Oasis_Suite_container_to_book{
+    utline: auto;
+    margin-top: 50px;
+}
+
+.Premium_Oasis_Suite_header_to_book{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.Premium_Oasis_Suite_container_for_image_text{
+    display: flex;
+}
+
+
+.Premium_Oasis_Suite_image_to_book{
+    width: 400px;
+    border: 5px #B28850 solid;
+    border-radius: 2.5px;
+    
+}
+
+.Premium_Oasis_Suite_container_for_button_text{
+    display: flex;
+    flex-direction: column;
+    utline: red 5px solid;
+    background-color: #d3d3d3;
+}
+
+.Premium_Oasis_Suite_text_to_book{
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-size: 18px;
+    utline: auto;
+    text-align: center;
+}
+
+.Premium_Oasis_Suite_button{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #B28850;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    transition: all 0.3s ease 0s
+}
+
+.Premium_Oasis_Suite_button:hover{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #d5a25e;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+
+.Premium_Oasis_Suite_text_in_button{
+    margin-top: 12px;
+    color: black;
+    font-size: 23px  ;
+}
+
+
+
+
+/* 4th Room container Sentosa Suite */  
+
+.Sentosa_Suite_container_to_book{
+    utline: auto;
+    margin-top: 50px;
+}
+
+.Sentosa_Suite_header_to_book{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.Sentosa_Suite_container_for_image_text{
+    display: flex;
+}
+
+
+.Sentosa_Suite_image_to_book{
+    width: 400px;
+    border: 5px #B28850 solid;
+    border-radius: 2.5px;
+    
+}
+
+.Sentosa_Suite_container_for_button_text{
+    display: flex;
+    flex-direction: column;
+    utline: red 5px solid;
+    background-color: #d3d3d3;
+}
+
+.Sentosa_Suite_text_to_book{
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-size: 18px;
+    utline: auto;
+    text-align: center;
+}
+
+.Sentosa_Suite_button{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #B28850;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    transition: all 0.3s ease 0s
+}
+
+.Sentosa_Suite_button:hover{
+    text-decoration: none;  
+    width: 180px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 6px;
+    background-color: #d5a25e;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+
+.Sentosa_Suite_text_in_button{
+    margin-top: 12px;
+    color: black;
+    font-size: 23px  ;
+}
+
+
+
+.line_break_seperating_rooms{
+    width: 60%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #B28850;
+    border: none;
+    margin-top: 50px;
+}
+
