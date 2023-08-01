@@ -1,16 +1,11 @@
 
-
-.Header{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
 .HeaderIMG{
     width: 100%;
     height: auto;
 }
-
+body{
+    background-color: white;
+}
 .Main_container{
     text-align: center;
     background-color: white;
@@ -47,4 +42,9 @@
 .Main_container a:hover{
     color: goldenrod;
     border: goldenrod 3px solid;
+}
+
+.spacing_container{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
