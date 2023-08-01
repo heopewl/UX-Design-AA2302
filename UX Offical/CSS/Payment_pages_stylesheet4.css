@@ -218,3 +218,17 @@ h1.information_header{
     margin-top: 15px;
     margin-left: 20px;
 }
+
+
+
+/* Main Container to store all four rooms display */
+
+.container_rooms_selections{
+    width: 53%;
+    height: 1000px;
+    margin-left: 90px;
+    margin-top: 150px;
+    margin-bottom: 700px;
+    display: inline-block;
+    outline: auto;
+}
