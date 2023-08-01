@@ -11,7 +11,7 @@ nav{
     width: 100%;
     display: relative;
     z-index: 1;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 label.logo{
     color: white;
@@ -55,7 +55,7 @@ a.active,a:hover{
     display:none;
 }
 .navbutton{
-    padding: 10px 20px;
+  padding: 10px 20px;
   background-color: gold;
   color: #000;
   border: none;
