@@ -4,13 +4,14 @@
 }
 
 .form_container{
-    width:50%;
+    width: 100%;
     height: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: red 5px solid;
+    
 }
 
 .form_title{
+    
     margin-top: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -19,12 +20,15 @@
 
 .questions_container{
     margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
 }
 
 .form_container label{
-    display: block;
+    /* display: block; */
     font-weight: bold;
     margin-bottom: 5px;
+    float: left;
 }
 
 input[type="text"],
@@ -33,6 +37,7 @@ input[type="date"],
 input[type="number"],
 input[type="tel"],
 select,textarea{
+    
     height: auto;
     width: 90%;
     padding: 7px;
@@ -61,6 +66,6 @@ input[type="submit"] {
 
 @media screen and (max-width: 768px){
     .form_container{
-        width: 70%;
+        width: 100%;
     }
 }

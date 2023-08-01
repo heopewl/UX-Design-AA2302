@@ -7,12 +7,13 @@
   <title>Try reactive 1</title>
   <link rel="stylesheet" href="CSS/NewNavbar.css">
   <link rel="stylesheet" href="CSS/Resturantforms2.css">
+  <link rel="stylesheet" href="CSS/Footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-  <title>Dining</title><!-- REPLACE title as what u want -->
+  <title>Dining</title>
 </head>
 <body style="background-color: #FFFFF0;">
     <nav>
@@ -30,35 +31,53 @@
             <li><a href="#" class="navbutton">Book now</a></li>
         </ul>
     </nav>
+
     
-    <div class = "Form-Container">
-        <h1 class="Form-Header">Resturant Reservation</h1>
-        <form action="Homepage.html" method="get">
-            
-            <div class="questions_container">
-                <label for="ReservationDates">Reservation Date:</label>
-                <input type="date" id="ReservationDates" name="ReservationDates" value="YYYY-MM-DD" min="2023-01-01" required>
+    
+    <script>
+
+        const form = document.querySelector('form');
+        form.addEventListener('submit',(e)=>{
+            e.preventDefault();
+            const formdata = new FormData(form);
+            console.log(formdata);
+            for (item of formdata){
+                console.log(item);
+            }
+        })
+    </script>
+    <div class="footer-container">
+        <footer>
+            <div class="section1_footer">
+                <div class="part1footerleft">
+                    <div class="insidepart1">
+                        <h1 class="title">Contact Us</h1>
+                        <div class="contact_container">
+                        <a href="" class="contactlinks"><p class="contacttextfirst">Company Infomation</p></a>
+                        <a href="" class="contactlinks"><p class="contacttext">FAQs</p></a>
+                        <a href="" class="contactlinks"><p class="contacttext">Contact Us</p></a>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="part1footerright">
+                    <div class="insidepart1">
+                        <h1 class="title">Socials</h1>
+                        <div class="socialicon_container">
+                        <a href="https://twitter.com/AimanReza06" class="mainsocialmedia"><img src="images/edited/Twitter.jpg" alt="" class="socialmediaiconfirst"></a>
+                        <a href="https://www.facebook.com/TheStraitsTimes?mibextid=LQQJ4d" class="mainsocialmedia"><img src="images/edited/Facebook.jpg" alt="" class="socialmediaicon"></a>
+                        <a href="https://www.instagram.com/righthand_aiman/" class="mainsocialmedia"><img src="images/edited/Instagram.jpg" alt=""class="socialmediaicon"></a>
+                        <!-- <a href="https://vt.tiktok.com/ZSLjpVJJf/" class="mainsocialmedia"><img src="images/edited/Tiktok.jpg" alt="" class="socialmediaicon"></a> -->
+                        </div>  
+                    </div>
+                </div>
             </div>
-            <div class="questions_container">
-                <label for="ReservationTiming">Reservation Timing:</label>
-                <select list="ReservationTiming" id="ReservationTiming" name="ReservationTiming" required>
-                    <option value="4:00pm">4:00pm</option>
-                    <option value="4:30pm">4:30pm</option>
-                    <option value="5:00pm">5:00pm</option>
-                    <option value="5:30pm">5:30pm</option>
-                    <option value="6:00pm">6:00pm</option>   
-                </select>
+
+            <div class="part2footer">
+                <a href=""class="copyright"><p class="copyrighttext">© 2023 Reza Resort. All rights reserved</p></a>
             </div>
-            
-        </form>
+        </footer>
     </div>
-
-
-    <footer>
-        <div class="footer-container">
-          <p>Footer here Aiman doing</p>
-        </div>
-    </footer>
 </body>
 </html>
     
