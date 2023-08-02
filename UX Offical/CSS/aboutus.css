@@ -1,0 +1,26 @@
+.Header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .Header h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-left: 15px;
+    border-left: white 3px solid;
+    font-size: 8em;
+  }
+  
+  .HeaderIMG{
+    width: 100%;
+    height: auto;
+  }
+  
+  .Container_ALL{
+    align-content: center;
+    text-align: center;
+  }
