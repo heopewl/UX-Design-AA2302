@@ -1,26 +1,60 @@
 .Header{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
   }
-  
+    
   .Header h1{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    padding-left: 15px;
-    border-left: white 3px solid;   
-    font-size: 8em;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      padding-left: 15px;
+      border-left: white 3px solid;   
+      font-size: 8em;
   }
-  
+    
   .HeaderIMG{
-    width: 100%;
-    height: auto;
+      width: 100%;
+      height: auto;
   }
-  
-  .Container_ALL{
-    align-content: center;
-    text-align: center;
+
+@media screen and (max-width: 1024px){
+  .Header h1{
+    font-size: 60px;
   }
+  .Title.active{
+    display: none;
+    animation-name: move;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+}
+    
+@media screen and (max-width: 768px){
+  .Header h1{
+    font-size: 40px;
+  }
+  .Title.active{
+    display: none;
+    transition: transform 0.5s ease-in;
+  }
+}
+
+.linebreak{
+  width: 175px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.missionary{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+}
+
