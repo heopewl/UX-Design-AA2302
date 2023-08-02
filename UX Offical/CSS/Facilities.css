@@ -89,18 +89,18 @@ h3{
     width: 100%;
     height: auto;
     overflow: hidden;
-}
+  }
   
-.Header h1{
+  .Header h1{
     position: absolute;
-    top: 30%;
+    top:25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     padding-left: 15px;
-    border-left: white 3px solid;   
-    font-size: 8em;
-}
+    border-left: white 3px solid;
+    font-size: 6em;
+  }
 .Title{
     text-shadow: 0 0 5px black;
 }
@@ -109,6 +109,10 @@ h3{
     width: 100%;
     height: auto;
 }
+@keyframes fade_in{
+    from {left: 0px;}
+    to {align-self: center; }
+  }
 
 @media screen and (max-width: 1024px){
     .Header h1{
