@@ -1,4 +1,5 @@
 
+
 .Header{
   width: 100%;
   height: auto;
@@ -24,6 +25,7 @@
 .Container_ALL{
   align-content: center;
   text-align: center;
+  background-color: white;
 }
 
 
@@ -93,14 +95,14 @@
   color: black;
   border: 3px solid black ;
   padding: 10px;
-  background-color: #FFFFF0;
+  background-color: white;
   font-weight: bold;
 }
 
 .book_button:hover{
   border: goldenrod solid 3px;
-  background-color: #FFFFFF;
-  color: black;
+  background-color: white;
+  color: goldenrod;
 }
 
 
@@ -152,7 +154,7 @@
   border-bottom:black solid 3px;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 @media screen and (max-width: 1024px){
