@@ -248,6 +248,8 @@ h1.information_header{
 
 
 
+
+
 .information_checkin_date{
     font-family: 'roboto';
     margin: 0 auto;
@@ -299,5 +301,34 @@ h1.information_header{
 /* Return to homepage button*/
 
 .return_to_homepage_button{
+    border: black 3px solid;
+    border-radius: 4px;
+    display: block;
+    width: 280px;
+    height: 50px;
+    color: black;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #B28850;
+    transition: all 0.3s ease 0s
+}
 
+.return_to_homepage_button:hover{
+    border: black 3px solid;
+    border-radius: 4px;
+    display: block;
+    width: 280px;
+    height: 50px;
+    color: black;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #d5a25e;
+}
+
+
+.return_to_homepage_text{
+    margin-top: 10px;
+    text-align: center;
 }
