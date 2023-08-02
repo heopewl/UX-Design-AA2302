@@ -1,26 +1,35 @@
 .Header{
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-  }
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
     
-  .Header h1{
-      position: absolute;
-      top: 25%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      padding-left: 15px;
-      border-left: white 3px solid;   
-      font-size: 8em;
-  }
+.Header h1{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-left: 15px;
+  border-left: white 3px solid;   
+  font-size: 8em;
+}
     
-  .HeaderIMG{
-      width: 100%;
-      height: auto;
-  }
+.HeaderIMG{
+  width: 100%;
+  height: auto;
+}
+
+@keyframes fade_in{
+  from {left: 0px;}
+  to {align-self: center; }
+}
 
 @media screen and (max-width: 1024px){
+  .Header{
+    justify-content: center;
+    align-items: center;
+  }
   .Header h1{
     font-size: 60px;
   }
@@ -31,15 +40,25 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
   }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+  .ourmission {
+    font-size: 50px;
+  }
 }
     
 @media screen and (max-width: 768px){
   .Header h1{
     font-size: 40px;
   }
-  .Title.active{
+  .Title.active{  
     display: none;
     transition: transform 0.5s ease-in;
+  }
+  .ourmission {
+    font-size: 50px;
   }
 }
 
@@ -47,14 +66,34 @@
   width: 175px;
   margin: 0 auto;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   display: block;
 }
 
 .missionary{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   display: block;
+  .ourdescription {
+    padding-left:15%;
+    padding-right: 15%;
+  }
 }
 
+.title{
+  font-family: opensans;
+}
+
+.gapline{
+  border: none;
+  border-top: 1px solid #ccc;
+  width: auto;
+  max-width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.missionary .ourmission{
+  font-size: 60px;
+}

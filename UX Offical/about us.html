@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
   <meta charset="UTF-8">    
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Try reactive 1</title>
   <link rel="stylesheet" href="CSS/NewNavbar.css">
   <link href="CSS/aboutus.css" rel="stylesheet" type="text/css">
   <link href="CSS/Footer.css" rel="stylesheet" type="text/css">
@@ -15,11 +15,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+        font-family: opensans;
+        src: url(TTF/Cinzel/static/Cinzel-Bold.ttf)
+        format(truetype);
+    }
+
+    .ourmission {
+        font-family: opensans;
+        font-size: 70px;
+        padding-bottom: 5px;
+    }
+  </style>
   
   <title>Home</title><!-- REPLACE title as what u want -->
-</head>
-<body style="background-color: #fff;">
-      <nav>
+    </head>
+    <body style="background-color: #fff;">
+      <nav> 
           <input type="checkbox" id="check">
           <label for="check" class="checkboxbutton">
             <i class="fa fa-bars" style="font-size:24px; margin-top: 30px;"></i>
@@ -30,30 +43,47 @@
             <li><a class="colorchange" href="about us.html">about</a></li>
             <li><a class="colorchange" href="Rooms webpage.html">rooms</a></li>
             <li><a class="colorchange" href="ResturantPage.html">Dining</a></li>
-            <li><a class="colorchange" href="#">facilities</a></li>
+            <li><a class="colorchange" href="Facilities.html">facilities</a></li>
             <li><a href="Payment webpage 1 (Date Selection).html" class="navbutton">Book now</a></li>
             </ul>
       </nav>
       <header>
+
         <div class="Header">
             <h1 class="Title">About Us</h1>
             <img src="ImageNVideo/wallpaperflare.com_wallpaper.jpg" class="HeaderIMG" style="aspect-ratio:900/506; width:100%; max-height:60vh;">
+            <img src="ImageNVideo/line break hotel website edited.jpg" class="linebreak">
         </div>
-        <img src="ImageNVideo/line break hotel website edited.jpg" class="linebreak">
+
       </header>
       <article class="missionary">
-        <h1>Our Mission</h1>
-        <p>At Luxury Resort, we believe in providing our guests with an unforgettable experience of luxury and relaxation. Nestled in the heart of a pristine natural landscape, our resort offers a perfect blend of modern amenities and serene surroundings.</p>
+        <h1 class="ourmission">Our Mission</h1>
+        <hr class="gapline">
+        <p class="ourdescription">
+            At Luxury Resort, we believe in providing our guests with an unforgettable experience of luxury and relaxation. Nestled in the heart of a pristine natural landscape, our resort offers a perfect blend of modern amenities and serene surroundings.
+        </p>
       </article>
-<footer>
+      <article>
+        <h2>Our Commitment to Excellence</h2>
+        <p>
+            Impeccable Service: Our dedicated staff is committed to providing exceptional service and ensuring that every guest feels pampered and well taken care of. From the moment you arrive until the time you depart, our team is here to cater to your every need.
+            <br>
+            Luxurious Accommodations: Our resort boasts a range of luxurious accommodations, from spacious suites to private villas. Each room is elegantly designed and equipped with state-of-the-art amenities to ensure your comfort and relaxation.
+            <br>
+            Culinary Delights: Indulge your taste buds at our world-class restaurants, where our talented chefs create exquisite dishes using the finest ingredients. From international cuisine to local specialties, our diverse dining options are sure to satisfy even the most discerning palate.
+            <br>
+            Relaxation and Recreation: Unwind and rejuvenate at our luxurious spa, where you can indulge in a variety of treatments and therapies. For those seeking adventure, our resort offers a range of recreational activities, including swimming, tennis, bowling, and more.
+        </p>
+      </article>
+        <footer>
   <div class="section1_footer">
     <div class="part1footerleft">
         <div class="insidepart1">
             <h1 class="title">Contact Us</h1>
             <div class="contact_container">
             <a href="" class="contactlinks"><p class="contacttextfirst">Company Infomation</p></a>
-            <a href="" class="contactlinks"><p class="contacttext">FAQs</p></a>
-            <a href="" class="contactlinks"><p class="contacttext">Contact Us</p></a>
+            <a href="" class="contactlinks"><p class="contacttextfirst">FAQs</p></a>
+            <a href="" class="contactlinks"><p class="contacttextfirst">Contact Us</p></a>
             </div>
         </div> 
     </div>
@@ -74,6 +104,7 @@
   <div class="part2footer">
       <a href=""class="copyright"><p class="copyrighttext">© 2023 Reza Resort. All rights reserved</p></a>
   </div>
-</footer>
-</body>
+        </footer>
+    </body>
+    <script src="JS/Resturant.js"></script>
 </html>
