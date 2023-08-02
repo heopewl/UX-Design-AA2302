@@ -20,6 +20,11 @@
   height: auto;
 }
 
+@keyframes fade_in{
+  from {left: 0px;}
+  to {align-self: center; }
+}
+
 @media screen and (max-width: 1024px){
   .Header{
     justify-content: center;
