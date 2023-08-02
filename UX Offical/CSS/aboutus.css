@@ -1,3 +1,33 @@
+/* Header */
+
+.gapline{
+  border: none;
+  border-top: 1px solid #ccc;
+  width: auto;
+  max-width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.linebreak{
+  width: 175px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.missionary{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: block;
+  .ourdescription {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+}
+
 .Header{
   width: 100%;
   height: auto;
@@ -20,6 +50,13 @@
   height: auto;
 }
 
+
+
+
+
+
+
+/* Resizing */
 @keyframes fade_in{
   from {left: 0px;}
   to {align-self: center; }
@@ -62,38 +99,100 @@
   }
 }
 
-.linebreak{
-  width: 175px;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.missionary{
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  display: block;
-  .ourdescription {
-    padding-left:15%;
-    padding-right: 15%;
+@media screen and (max-width:2000px){
+  .container{
+    overflow: visible;
   }
 }
 
-.title{
-  font-family: opensans;
-}
 
-.gapline{
+
+
+/* Content */
+
+.container{
+  overflow: hidden;
+  overflow-x: scroll;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.container::-webkit-scrollbar{
+    max-height: 12px;
+}
+.container::-webkit-scrollbar-thumb{
+  background-color: rgba(9, 7, 7, 0.242);
+  border-radius: 12px;
+}
+.main{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: fit-content;
+}
+.main .divider{
   border: none;
   border-top: 1px solid #ccc;
   width: auto;
-  max-width: 50%;
+  max-width: 85%;
   margin: auto;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.gapline2{
+  border: none;
+  border-top: 1px solid #ccc;
+  width: auto;
+  max-width: 75%;
+  margin: auto;
+  padding-bottom: 7vh;
+}
+.img1{
+  aspect-ratio: 16/10;
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  margin: 30px;
+  margin-bottom: 2px;
+}
+.inpara{
+  padding-left: 30px;
 }
 
-.missionary .ourmission{
-  font-size: 60px;
+.main h3{
+  padding-bottom: 5px;
+}
+
+
+
+
+
+/* Buttons */
+
+.homebutton:hover{
+  cursor: pointer;
+}
+
+.roombutton:hover{
+  border: #B28850 solid 2px;
+  color: #B28850;
+}
+.roombutton{
+  border: black solid 2px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-decoration: none; 
+  font-size: 1.5em;
+  color: black;
+  display: block;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  font-family: 'Open Sans',sans-serif;
 }
