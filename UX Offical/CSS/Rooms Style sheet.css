@@ -10,7 +10,7 @@ body{
 /* Webpage name/header */
 
 #webpageheader{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -25,6 +25,7 @@ body{
     position: absolute;
     top: 300px;
     right: 510px    ;
+    font-family: 'Playfair Display', serif; 
 }
 
 .headerbackground{
@@ -44,7 +45,7 @@ body{
 }
 
 .mainheader{
-    font-family: 'Cinzel','Montserrat',Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3.5em;
     width: 50%;
     margin: 0 auto;
@@ -53,7 +54,7 @@ body{
 }
 
 .basictext{
-    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 1.1em;
     color: black;
@@ -84,7 +85,7 @@ body{
 .roomheadertextcontainer{
     margin-right: 50px;
     margin-left: 650px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     position: absolute;
     top: 20px;
     height: 300px;
@@ -94,14 +95,14 @@ body{
 .roomheader{
     text-align: center;
     font-size: 50px;
-    font-family: 'Bentham',Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
 }
 
 .roomtext{
     text-align: center;
     font-size: 1em;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans',sans-serif;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -119,6 +120,7 @@ body{
     margin: 0 auto;
     cursor: pointer;
     transition: all 0.2s ease 0s;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .roombutton:hover{
@@ -150,7 +152,7 @@ footer{
     height: 100%;
     width: 49.8%;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     border: solid 6px #925030;
     border-left: solid 4px #925030;
     border-bottom: solid 0px #925030;
@@ -161,7 +163,7 @@ footer{
     height: 100%;
     width: 49.8%;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     border: solid 6px #925030;
     border-right: solid 4px #925030;
     border-bottom: solid 0px #925030;
