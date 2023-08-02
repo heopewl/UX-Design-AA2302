@@ -13,7 +13,7 @@
     margin: 0 auto;
     margin-top: 50px;
     font-size: 80px;
-    font-family: 'Montserrat';
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -51,7 +51,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #B28850;
@@ -88,7 +88,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #808080;
@@ -125,7 +125,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #808080;
@@ -160,7 +160,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #808080;
@@ -206,14 +206,14 @@
 
 
 .checkin_text_form{
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
 }
 
 .checkout_text_form{
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
@@ -228,7 +228,7 @@ input.checkin_input{
     padding: 10px;
     text-align: center;
     font-size: 17px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     border-radius: 4px;
     border: none;
     background-color: #f1f1f1;
@@ -244,7 +244,7 @@ input.checkout_input{
     padding: 10px;
     text-align: center;
     font-size: 17px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     border-radius: 4px;
     border: none;
     background-color: #f1f1f1;
@@ -256,7 +256,7 @@ input.submit_button_for_checkinform{
     width: 200px;
     height: 50px;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans',sans-serif;
     background-color: #B28850;
     display: block;
     text-align: center;
@@ -271,7 +271,7 @@ input.submit_button_for_checkinform:hover{
     width: 200px;
     height: 50px;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans',sans-serif;
     background-color: #d5a25e;
     display: block;
     text-align: center;
