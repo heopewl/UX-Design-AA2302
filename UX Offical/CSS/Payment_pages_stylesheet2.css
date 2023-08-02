@@ -232,14 +232,14 @@ h1.information_header{
     height: 1000px;
     margin-left: 90px;
     margin-top: 150px;
-    margin-bottom: 700px;
+    margin-bottom: 1000px;
     display: inline-block;
 }
 
 /* 1st Room container */  
 
 .garden_oasis_room_container_to_book{
-    outline: auto; 
+    utline: auto; 
     width: 800px;
 }
 
@@ -272,10 +272,16 @@ h1.information_header{
     width: 400px;
 }
 
+.price_of_room{
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
 .garden_oasis_room_text_to_book{
     margin-left: 15px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Lato';
     font-size: 18px;
     utline: auto;
@@ -292,6 +298,7 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 15px;
     transition: all 0.3s ease 0s
 }
 
@@ -305,6 +312,7 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 
@@ -374,7 +382,8 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
+    margin-bottom: 15px;
 }
 
 .Ocean_Retreat_Room_button:hover{
@@ -387,6 +396,7 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 
@@ -459,7 +469,8 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
+    margin-bottom: 15px;
 }
 
 .Premium_Oasis_Suite_button:hover{
@@ -472,6 +483,7 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 
@@ -542,7 +554,8 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
+    margin-bottom: 15px;
 }
 
 .Sentosa_Suite_button:hover{
@@ -555,6 +568,7 @@ h1.information_header{
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 
