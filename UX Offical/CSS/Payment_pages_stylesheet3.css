@@ -52,7 +52,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #B28850;
@@ -89,7 +89,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #B28850;
@@ -126,7 +126,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #B28850;
@@ -162,7 +162,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #808080;
@@ -205,28 +205,28 @@ h1.information_header{
 }
 
 .information_checkin_date{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
 }
 
 .information_checkout_date{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
 }
 
 .information_days_counter_date{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
 }
 
 .information_days_selected_room{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
@@ -270,7 +270,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -286,7 +286,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -301,7 +301,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size:18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -394,7 +394,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -410,7 +410,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -432,7 +432,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     border-right: none;
     border-top-right-radius: 0px ;
@@ -449,7 +449,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     border-left: none;
     border-top-left-radius: 0px ;
@@ -470,7 +470,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -488,7 +488,7 @@ h1.information_header{
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
