@@ -27,25 +27,6 @@
 }
 
 
-
-
-
-
-
-/* .footer-container{
-  width:100%;
-  height: 400px;
-  background-color: #cc9900;
-} */
-
-
-
-
-body{
-  font-family: sans-serif;
-  background-color: #ffffff;
-}
-
 .container_tally{
   display: flex;
   flex-wrap: wrap;
