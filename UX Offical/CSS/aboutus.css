@@ -70,6 +70,10 @@
   margin-top: 30px;
   margin-bottom: 50px;
   display: block;
+  .ourdescription {
+    padding-left:15%;
+    padding-right: 15%;
+  }
 }
 
 .title{
