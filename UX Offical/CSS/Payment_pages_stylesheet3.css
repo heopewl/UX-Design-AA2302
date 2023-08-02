@@ -239,6 +239,7 @@ h1.information_header{
 .form_guest_info_header{
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'montserrat';
 }
 
 .guest_info_form{
@@ -247,27 +248,30 @@ h1.information_header{
 
 .guest_info_input_fullname{
     display: block;
-    width: 230px;
-    height: 40px;
+    width: 300px;
+    height: 48  px;
     margin-bottom: 20px ;
     border: 2.5px black solid;
     border-radius: 4px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Roboto';
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .guest_info_input_phonenumber{
     display: block;
-    width: 230px;
-    height: 40px;
+    width: 300px;
+    height: 48px;
     margin-bottom: 20px ;
     border: 2.5px black solid;
     border-radius: 4px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Roboto';
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -275,55 +279,208 @@ h1.information_header{
 
 .guest_info_input_email{
     display: block;
-    width: 230px;
-    height: 40px;
-    margin-bottom: 20px ;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 80px ;
     border: 2.5px black solid;
     border-radius: 4px;
     padding: 10px;
-    font-size: 20px;
+    font-size:18px;
+    font-family: 'Roboto';
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-#visa {
-    width: 80px;
-    position: relative;
-    top: 15px;
+/* Payment form */
+
+
+.payment_option_container{
+    width: 90%;
+    utline: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 
-#mastercard {
-    width: 65px;
-    position: relative;
-    top: 20px;
+
+
+.visa_container{
+    utline: red 2px solid;
+    flex: 1;
+    display: flex;
 }
 
-#americanexp {
-    width: 60px;
-    position: relative;
-    top: 22px;
+.master_card_container{
+    utline: blue 2px solid;
+    flex: 1;
+    display: flex;
 }
 
-.visaoption {
-    display: inline-block;
-    margin-right: 50px;
+.american_express_container{
+    utline: green 2px solid;
+    flex: 1;
+    display: flex;
 }
 
-.masteroption {
-    display: inline-block;
-    margin-right: 50px;
+
+
+
+
+#visa{
+    margin-left: 10px;
+   
 }
 
-.americanoption {
-    display: inline-block;
-    margin-bottom: 20px;
+
+.visa_image{
+    width: 140px;
+    margin: 0 auto;
+    margin-left: 50px;
 }
 
-.circlebutton {
-    background-color: black;
+
+
+#master_card{
+    margin-left: 10px;
+
 }
 
-.paymentdiv {
-    margin-top: 35px;
+.master_card_image{
+    width: 100px;
+    margin: 0 auto;
+    margin-left: 50px;  
+}
+
+
+#american_express{
+    margin-left: 10px;
+
+}
+
+
+.american_express_image{
+    width: 85px;
+    margin: 0 auto;
+    margin-left: 50px;  
+}
+
+
+
+/* Card details */
+
+.credit_card_name_input{
+    display: block;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credit_card_number_input{
+    display: block;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 0px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.testing{
+    display: flex;
+    justify-content: center;
+}
+
+.credit_card_expiry_input_left{
+    display: block;
+    width: 150px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 0px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    border-right: none;
+    border-top-right-radius: 0px ;
+    border-bottom-right-radius: 0px ;
+}
+
+.credit_card_expiry_input_right{
+    display: block;
+    width: 150px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 0px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    border-left: none;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px ;
+}
+
+
+/*Submit button*/
+
+.form_submit_button{
+    display: block;
+    width: 100px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    border: 2.5px black solid;
+    background-color: #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.2s ease 0s;
+}
+
+.form_submit_button:hover{
+    display: block;
+    width: 100px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    border: 2.5px black solid;
+    background-color: #B28850;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
