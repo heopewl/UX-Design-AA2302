@@ -20,12 +20,14 @@
 /* Indication */
 
 .payment_indicator{
-    outline:auto;
+    
     width: 88%;
     height: 120px;
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
+    background-color: #ededed;
+    border: #d7d7d7 5px solid;
 }
 
 
@@ -33,7 +35,6 @@
 .date_indicator{
     width: 20%;
     height: 120px;
-    outline: red solid 5px;
     display: inline-block;
     margin-right: 50px;
     flex: 1;
@@ -46,8 +47,9 @@
 .circle_step_counter_date {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 54px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -73,7 +75,7 @@
 .room_indicator{
     width: 20%;
     height: 120px;
-    outline: blue solid 5px;
+    utline: blue solid 5px;
     display: inline-block;
     margin-right: 50px;
     flex: 1;
@@ -82,8 +84,9 @@
 .circle_step_counter_room {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -109,7 +112,7 @@
 .guestcard_info_indicator{
     width: 20%;
     height: 120px;
-    outline: green solid 5px;
+    utline: green solid 5px;
     display: inline-block;
     margin-right: 50px;
     flex: 1;
@@ -118,8 +121,9 @@
 .circle_step_counter_guest {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -144,7 +148,7 @@
 .confirmation_indicator{
     width: 20%;
     height: 120px;
-    outline: purple solid 5px;
+    utline: purple solid 5px;
     display: inline-block;
     flex: 1;
 }
@@ -152,8 +156,9 @@
 .circle_step_counter_confirmation {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -180,18 +185,21 @@
     height: 400px;
     margin: 0 auto;
     margin-top: 150px;
-    outline: auto;
     display: flex;
     margin-bottom: 300px;
+    background-color: #ededed;
+    border: #d7d7d7 5px solid;
 }
 
 .checkin_section{
-    outline: black solid 2px;
+    utline: black solid 2px;
+    border-right: #d7d7d7 2.5px solid;
     width: 50%;
 }
 
 .checkout_section{
-    outline: black solid 2px;
+    utline: black solid 2px;
+    border-left: #d7d7d7 2.5px solid;
     width: 50%;
 }
 

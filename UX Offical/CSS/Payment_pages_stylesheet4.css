@@ -21,6 +21,7 @@
 
 /* Indication */
 
+/*
 .payment_indicator{
     outline:auto;
     width: 88%;
@@ -174,6 +175,17 @@
     margin-left: 10px;
 }
 
+.room_booked_header{
+    outline: auto;
+    width: 30%;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+*/
+
 
 
 
@@ -181,29 +193,72 @@
 /* Important information/receipt */
 
 .important_infomation{
-    width: 400px;
-    height: 300px;
-    margin-top: 150px;
-    margin-right: 125px;
+    width: 700px;
+    height: 1000px;
+    margin: 0  auto;
+    margin-top: 100px;
     border: solid 4px black;
     border-radius: 2.5px;
-    float: right;
     background-color: #D3D3D3;
     margin-bottom: 300px;
 }
+
+
 
 h1.information_header{
     width: fit-content;
     margin: 0 auto;
     margin-top: 30px;
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-.information_checkin_date{
+
+.information_testing{
     font-family: 'roboto';
+    margin: 0 auto;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
+    text-align: center;
+    
+}
+
+.information_credit_card{
+    font-family: 'roboto';
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.line_break_seperating_rooms{
+    width: 60%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #B28850;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.information_checkin_date{
+    font-family: 'roboto';
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    
 }
 
 .information_checkout_date{
@@ -211,6 +266,7 @@ h1.information_header{
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
+    text-align: center;
 }
 
 .information_days_counter_date{
@@ -218,8 +274,17 @@ h1.information_header{
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
+    text-align: center;
 }
 
+
+.information_days_selected_room{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
 
 
 /* Main Container to store all four rooms display */
@@ -232,4 +297,39 @@ h1.information_header{
     margin-bottom: 700px;
     display: inline-block;
     outline: auto;
+}
+
+/* Return to homepage button*/
+
+.return_to_homepage_button{
+    border: black 3px solid;
+    border-radius: 4px;
+    display: block;
+    width: 280px;
+    height: 50px;
+    color: black;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #B28850;
+    transition: all 0.3s ease 0s
+}
+
+.return_to_homepage_button:hover{
+    border: black 3px solid;
+    border-radius: 4px;
+    display: block;
+    width: 280px;
+    height: 50px;
+    color: black;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #d5a25e;
+}
+
+
+.return_to_homepage_text{
+    margin-top: 10px;
+    text-align: center;
 }
