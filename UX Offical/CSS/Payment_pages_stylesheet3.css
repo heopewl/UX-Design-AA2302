@@ -220,6 +220,13 @@ h1.information_header{
     margin-left: 20px;
 }
 
+.information_days_selected_room{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
 
 
 /* Main Container to store all four rooms display */
