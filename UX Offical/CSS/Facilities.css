@@ -26,9 +26,9 @@
 }
 
 #textpic{
+    text-align: center;
     padding: 40px;
     max-width: 500px;
-    background-color: rgba(245, 222, 179, 0.6);
     margin: auto;
     margin-left: 0;
 
@@ -46,39 +46,46 @@
 }
 #spa{
     margin: auto;
-    border: #F5DEB3 5px solid;
     height: 350px;
-    width: 600px;   
+    width: 550px; 
+    margin-right: 100px;  
 }
 #jac{
     margin: auto;
-    border: #F5DEB3 5px solid;
     height: auto;
-    width: 600px;
+    width: 550px;
+    margin-right: 100px;
 }
 #gym{
     margin: auto;
-    border: #F5DEB3 5px solid;
     height: 350px;
-    width: 600px;
+    width: 550px;
+    margin-right: 100px;
 }
 h3{
     margin: 20px;
 }
 .button{
-    text-decoration: none;
+    border: black solid 2px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none; 
+    font-size: 1.5em;
     color: black;
-    border: 3px solid black ;
-    padding: 10px;
-    background-color: #fffff0dc;
-    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    font-family: 'Open Sans',sans-serif;
 }
-  
+
 .button:hover{
-    border: goldenrod solid 3px;
-    background-color: white;
-    color: black;
+    border: #B28850 solid 2px;
+    color: #B28850;
 }
+
 .linebreak{
     width: 150px;
     margin: 0 auto;
