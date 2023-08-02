@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Payment_pages_stylesheet2.css">
-    <title>Room Selection</title>
+    <link rel="stylesheet" href="CSS/Payment_pages_stylesheet3.css">
+    <title>Document</title>
 
     <link rel="stylesheet" href="CSS/NewNavbar.css">
     <link rel="stylesheet" href="CSS/Resturant.css">
@@ -13,12 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script>
-
-    </script>
 </head>
-<body>  
+<body>
 
     <nav>
         <input type="checkbox" id="check">
@@ -66,74 +62,49 @@
         </div>
     </div> 
 
+    
+    <div class="container_guest_info_form">
+        <h1 class="form_guest_info_header">Guest Infomation</h1>
+        <form action="Payment webpage 4.html" method="get" class="guest_info_form">
+            <input type="text" class="guest_info_input_fullname" placeholder="Full Name" required>
+            <input type="number" class="guest_info_input_phonenumber" placeholder="Phone Number" required min="10000000" max="99999999">
+            <input type="email" class="guest_info_input_email" placeholder="Email" required>
+
+            <h1 class="form_guest_info_header">Payment Details</h1>
 
 
+            <div class="payment_option_container">
+                <div class="visa_container">
+                    <label for="visa"><img src="ImageNVideo/Visa-Logo-1992.png" alt="" class="visa_image"></label>
+                    <input type="radio" id="visa" name="payment_option">
+                </div>
 
-    <div class="container_rooms_selections">
+                <div class="master_card_container">
+                    <label for="master_card"><img src="ImageNVideo/Mastercard-logo.svg.png" alt="" class="master_card_image"></label>
+                    <input type="radio" id="master_card" name="payment_option">
+                </div class="visa_container">
 
-        <div class="garden_oasis_room_container_to_book">
-            <h1 class="garden_oasis_room_header_to_book">Garden Oasis Room</h1>
-
-            <div class="garden_oasis_room_container_for_image_text">
-            <img src="ImageNVideo/standard garden view room.jpg" alt="" class="garden_oasis_room_image_to_book">
-
-            <div class="garden_oasis_room_container_for_button_text">
-                <p class="garden_oasis_room_text_to_book">Embrace tranquility in this elegantly designed haven, where French doors open to a private garden, blending nature's beauty with modern luxury, offering a serene retreat for an enchanting stay.</p>
-                <a href="Payment webpage 3.html" class="garden_oasis_room_button"><p class="garden_oasis_room_text_in_button">Select Room</p></a>
-            </div>
-            </div>
-            <hr class="line_break_seperating_rooms">
+                <div class="american_express_container">
+                    <label for="american_express"><img src="ImageNVideo/american-express-1-logo-png-transparent.png" alt="" class="american_express_image"></label>
+                    <input type="radio" id="american_express" name="payment_option">
+                </div>
         </div>
 
+        <input type="text" class="credit_card_name_input" placeholder="Name On Card" required>
 
+        <input type="number" class="credit_card_number_input" placeholder="1234-5678-1234-5678" required>
 
-        <div class="Ocean_Retreat_Room_container_to_book">
-            <h1 class="Ocean_Retreat_Room_header_to_book">Ocean Retreat Room</h1>
-
-            <div class="Ocean_Retreat_Room_container_for_image_text">
-            <img src="ImageNVideo/standard seaview room.jpg" alt="" class="Ocean_Retreat_Room_image_to_book">
-
-            <div class="Ocean_Retreat_Room_container_for_button_text">
-                <p class="Ocean_Retreat_Room_text_to_book">Surrender to coastal charm in this room with floor-to-ceiling windows framing mesmerizing ocean vistas, pampering guests with lavish amenities, ensuring a rejuvenating and unforgettable experience.</p>
-                <a href="Payment webpage 3.html" class="Ocean_Retreat_Room_button"><p class="Ocean_Retreat_Room_text_in_button">Select Room</p></a>
-            </div>
-            </div>
-            <hr class="line_break_seperating_rooms">
+        <div class="testing">
+        <input type="number" class="credit_card_expiry_input_left" placeholder="MM" required minlength="2" maxlength="2" pattern="[0-9]*">
+        <input type="number" class="credit_card_expiry_input_right" placeholder="YY" required minlength="2" maxlength="2" pattern="[0-9]*">  
         </div>
 
+        <input type="number" class="credit_card_number_input" placeholder="CVV" required min="100" max="999">
 
+        
+        <input type="submit" class="form_submit_button">
+        </form>
 
-
-        <div class="Premium_Oasis_Suite_container_to_book">
-            <h1 class="Premium_Oasis_Suite_header_to_book">Premium Oasis Suite</h1>
-
-            <div class="Premium_Oasis_Suite_container_for_image_text">
-            <img src="ImageNVideo/Premium suite.jpg" alt="" class="Premium_Oasis_Suite_image_to_book">
-
-            <div class="Premium_Oasis_Suite_container_for_button_text">
-                <p class="Premium_Oasis_Suite_text_to_book"> Unparalleled opulence awaits in this spacious and sophisticated suite, adorned with plush furnishings and premium comforts, providing exclusive services and amenities, perfect for the discerning traveler seeking a lavish escape.</p>
-                <a href="Payment webpage 3.html" class="Premium_Oasis_Suite_button"><p class="Premium_Oasis_Suite_text_in_button">Select Room</p></a>
-            </div>
-            </div>
-            <hr class="line_break_seperating_rooms">
-        </div>
-
-
-
-
-
-        <div class="Sentosa_Suite_container_to_book">
-            <h1 class="Sentosa_Suite_header_to_book">Sentosa Suite</h1>
-
-            <div class="Sentosa_Suite_container_for_image_text">
-            <img src="ImageNVideo/Sentosa suite.jpg" alt="" class="Sentosa_Suite_image_to_book">
-
-            <div class="Sentosa_Suite_container_for_button_text">
-                <p class="Sentosa_Suite_text_to_book">Indulge in exquisite luxury within this suite boasting panoramic views of Sentosa Island, epitomizing elegance wi</p>
-                <a href="Payment webpage 3.html" class="Sentosa_Suite_button"><p class="Sentosa_Suite_text_in_button">Select Room</p></a>
-            </div>
-            </div>
-        </div>
 
     </div>
 
@@ -144,7 +115,20 @@
         <p class="information_checkin_date">Check-In date: *insert check out date</p>
         <p class="information_checkout_date">Check-Out date: *insert check out date</p>
         <p class="information_days_counter_date"># days, # nights</p>
+        <p class="information_days_selected_room">Room Selected: *insert room selected</p>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer>
         <div class="section1_footer">
@@ -176,8 +160,6 @@
             <a href=""class="copyright"><p class="copyrighttext">© 2023 Reza Resort. All rights reserved</p></a>
         </div>
     </footer>
-
+    
 </body>
-
-
 </html>

@@ -41,10 +41,7 @@ nav ul li a{
     
 }
 
-a.active,a:hover{
-    background-color: #DAA520;
-    transition: .5s;
-}
+
 .checkboxbutton{
     font-size:30px;
     color: white;
@@ -67,7 +64,12 @@ a.active,a:hover{
 #check{
     display: none;
 }
-
+.colorchange:hover{
+    background-color: #CCAA00;
+}
+.navbutton:hover{
+    background-color: #CCAA00;
+}
 @media (max-width:958px){
     label.logo{
         font-size: 30px;

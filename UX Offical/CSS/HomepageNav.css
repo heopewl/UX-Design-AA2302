@@ -21,6 +21,12 @@ label.logo{
     
 }
 
+.colorchange:hover{
+    background-color: #CCAA00;
+}
+.navbutton:hover{
+    background-color: #CCAA00;
+}
 nav ul{
     float: right;
     margin-right: 0px;
@@ -41,10 +47,6 @@ nav ul li a{
     
 }
 
-a.active,a:hover{
-    background-color: #DAA520;
-    transition: .5s;
-}
 .checkboxbutton{
     font-size:30px;
     color: white;
@@ -97,7 +99,6 @@ a.active,a:hover{
         margin: 50px 0;
         line-height: 30px;
         margin-right: 80px;
-        
     }
     nav ul li a{
         font-size: 20px;

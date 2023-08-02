@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Payment webpage 1 (Date Selection) */
+
+
+/* Webpage header */
+.paymentwebpageheader{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 80px;
+    font-family: 'Montserrat';
+}
+
+
+/* Indication */
+
+.payment_indicator{
+    width: 88%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    background-color: #ededed;
+    border: #d7d7d7 5px solid;
+}
+
+
+
+.date_indicator{
+    width: 20%;
+    height: 120px;
+    utline: red solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.date_selectionlink{
+    
+}
+
+.circle_step_counter_date {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: white 3.5px solid;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #B28850;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_date_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.room_indicator{
+    width: 20%;
+    height: 120px;
+    utline: blue solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.circle_step_counter_room {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: white 3.5px solid;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #B28850;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_room_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.guestcard_info_indicator{
+    width: 20%;
+    height: 120px;
+    utline: green solid 5px;
+    display: inline-block;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.circle_step_counter_guest {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: white 3.5px solid;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #B28850;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_guest_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+.confirmation_indicator{
+    width: 20%;
+    height: 120px;
+    utline: purple solid 5px;
+    display: inline-block;
+    flex: 1;
+}
+
+.circle_step_counter_confirmation {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: white 3.5px solid;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.text_next_to_confirmation_indicator_icon{
+    display: inline-block;
+    font-size: 20px ;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* Important information/receipt */
+
+.important_infomation{
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-right: 125px;
+    border: solid 4px black;
+    border-radius: 2.5px;
+    float: right;
+    background-color: #D3D3D3;
+    margin-bottom: 300px;
+}
+
+h1.information_header{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+
+.information_checkin_date{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.information_checkout_date{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.information_days_counter_date{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.information_days_selected_room{
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+
+/* Main Container to store all four rooms display */
+
+.container_guest_info_form{
+    width: 53%;
+    height: 1000px;
+    margin-left: 90px;
+    margin-top: 150px;
+    margin-bottom: 700px;
+    display: inline-block;
+    outline: auto;
+}
+
+/* Guest Infomation Form */
+
+.form_guest_info_header{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'montserrat';
+}
+
+.guest_info_form{
+
+}
+
+.guest_info_input_fullname{
+    display: block;
+    width: 300px;
+    height: 48  px;
+    margin-bottom: 20px ;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.guest_info_input_phonenumber{
+    display: block;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 20px ;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guest_info_input_email{
+    display: block;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 80px ;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size:18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Payment form */
+
+
+.payment_option_container{
+    width: 90%;
+    utline: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.visa_container{
+    utline: red 2px solid;
+    flex: 1;
+    display: flex;
+}
+
+.master_card_container{
+    utline: blue 2px solid;
+    flex: 1;
+    display: flex;
+}
+
+.american_express_container{
+    utline: green 2px solid;
+    flex: 1;
+    display: flex;
+}
+
+
+
+
+
+#visa{
+    margin-left: 10px;
+   
+}
+
+
+.visa_image{
+    width: 140px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+
+
+#master_card{
+    margin-left: 10px;
+
+}
+
+.master_card_image{
+    width: 100px;
+    margin: 0 auto;
+    margin-left: 50px;  
+}
+
+
+#american_express{
+    margin-left: 10px;
+
+}
+
+
+.american_express_image{
+    width: 85px;
+    margin: 0 auto;
+    margin-left: 50px;  
+}
+
+
+
+/* Card details */
+
+.credit_card_name_input{
+    display: block;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credit_card_number_input{
+    display: block;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 0px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.testing{
+    display: flex;
+    justify-content: center;
+}
+
+.credit_card_expiry_input_left{
+    display: block;
+    width: 150px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 0px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    border-right: none;
+    border-top-right-radius: 0px ;
+    border-bottom-right-radius: 0px ;
+}
+
+.credit_card_expiry_input_right{
+    display: block;
+    width: 150px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 0px;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    border-left: none;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px ;
+}
+
+
+/*Submit button*/
+
+.form_submit_button{
+    display: block;
+    width: 100px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    border: 2.5px black solid;
+    background-color: #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.2s ease 0s;
+}
+
+.form_submit_button:hover{
+    display: block;
+    width: 100px;
+    height: 48px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    border: 2.5px black solid;
+    background-color: #B28850;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

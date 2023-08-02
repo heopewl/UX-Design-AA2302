@@ -21,20 +21,21 @@
 /* Indication */
 
 .payment_indicator{
-    outline:auto;
+    
     width: 88%;
     height: 120px;
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
+    background-color: #ededed;
+    border: #d7d7d7 5px solid;
 }
-
 
 
 .date_indicator{
     width: 20%;
     height: 120px;
-    outline: red solid 5px;
+    utline: red solid 5px;
     display: inline-block;
     margin-right: 50px;
     flex: 1;
@@ -47,8 +48,9 @@
 .circle_step_counter_date {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -74,7 +76,7 @@
 .room_indicator{
     width: 20%;
     height: 120px;
-    outline: blue solid 5px;
+    utline: blue solid 5px;
     display: inline-block;
     margin-right: 50px;
     flex: 1;
@@ -83,8 +85,9 @@
 .circle_step_counter_room {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -110,7 +113,7 @@
 .guestcard_info_indicator{
     width: 20%;
     height: 120px;
-    outline: green solid 5px;
+    utline: green solid 5px;
     display: inline-block;
     margin-right: 50px;
     flex: 1;
@@ -119,8 +122,9 @@
 .circle_step_counter_guest {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -145,7 +149,7 @@
 .confirmation_indicator{
     width: 20%;
     height: 120px;
-    outline: purple solid 5px;
+    utline: purple solid 5px;
     display: inline-block;
     flex: 1;
 }
@@ -153,8 +157,9 @@
 .circle_step_counter_confirmation {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50%;
+    border: white 3.5px solid;
     font-size: 30px;
     font-family: 'Roboto';
     color: #fff;
@@ -188,6 +193,7 @@
     border-radius: 2.5px;
     float: right;
     background-color: #D3D3D3;
+    margin-bottom: 300px;
 }
 
 h1.information_header{
@@ -222,18 +228,19 @@ h1.information_header{
 /* Main Container to store all four rooms display */
 
 .container_rooms_selections{
-    utline: auto;
     width: 53%;
     height: 1000px;
     margin-left: 90px;
     margin-top: 150px;
-    float: left;
+    margin-bottom: 700px;
+    display: inline-block;
 }
 
 /* 1st Room container */  
 
 .garden_oasis_room_container_to_book{
-    utline: auto; 
+    outline: auto; 
+    width: 800px;
 }
 
 .garden_oasis_room_header_to_book{
@@ -262,6 +269,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .garden_oasis_room_text_to_book{
@@ -304,7 +312,7 @@ h1.information_header{
 .garden_oasis_room_text_in_button{
     margin-top: 12px;
     color: black;
-    font-size: 23px  ;
+    font-size: 23px;
 }
 
 
@@ -314,6 +322,7 @@ h1.information_header{
 .Ocean_Retreat_Room_container_to_book{
     utline: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .Ocean_Retreat_Room_header_to_book{
@@ -342,6 +351,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .Ocean_Retreat_Room_text_to_book{
@@ -397,6 +407,7 @@ h1.information_header{
 .Premium_Oasis_Suite_container_to_book{
     utline: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .Premium_Oasis_Suite_header_to_book{
@@ -425,6 +436,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .Premium_Oasis_Suite_text_to_book{
@@ -478,6 +490,7 @@ h1.information_header{
 .Sentosa_Suite_container_to_book{
     utline: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .Sentosa_Suite_header_to_book{
@@ -506,6 +519,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .Sentosa_Suite_text_to_book{
