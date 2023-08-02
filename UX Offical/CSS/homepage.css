@@ -90,7 +90,9 @@
   margin-top: 20px;
 }
 
-
+p{
+    font-family: 'Open Sans',sans-serif;
+}
  
 @media screen and (max-width: 768px){
     .searchbarcontainer{
@@ -257,9 +259,6 @@
     text-align: left;
    
     
-}
-p{
-    font-family: 'Open Sans',sans-serif;
 }
 
 .aboutus button{
