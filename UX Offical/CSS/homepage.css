@@ -93,7 +93,7 @@
 p{
     font-family: 'Open Sans',sans-serif;
 }
- 
+
 @media screen and (max-width: 768px){
     .searchbarcontainer{
         margin-top: -500px;
