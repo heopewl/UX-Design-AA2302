@@ -67,12 +67,12 @@ h3{
     color: black;
     border: 1px solid black ;
     padding: 10px;
-    background-color: lightgoldenrodyellow;
+    background-color: #fff2d7;
     font-weight: bold;
 }
 
 .button:hover{
-    border: goldenrod solid 2px;
+    border: goldenrod solid 1px;
     background-color: #f3e6b4;
     color: black;
     padding: 10px;
@@ -109,6 +109,12 @@ h3{
     width: 100%;
     height: auto;
 }
+.vertical-line {
+    width: 1px; /* Line width */
+    background-color: black; /* Line color */
+    height: 1000px; /* Line height */
+    margin left: 0; 
+  }
 @keyframes fade_in{
     from {left: 0px;}
     to {align-self: center; }
