@@ -54,11 +54,15 @@
     font-size: 20px;
     width: 100%;
 }
+.textInPicture{
+    display: inline-block;
+    width: 100%;
+}
 .specialSpan{
     font-size: 32px;
     font-family: 'Playfair Display', serif;
     display: flex;
-   
+   width: 100%;
     
 }
 .span{
@@ -100,7 +104,10 @@
         margin-left: 30px;
      
     }
-
+    .textInPicture{
+        width:100%;
+        display: inline-block;
+    }
     .incontainer{
         margin-top: -55px;
         width: 59%;
