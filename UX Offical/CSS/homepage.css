@@ -19,7 +19,9 @@
   .arrow-button:hover{
     background-color: grey;
   }
-
+.aboutus button{
+   text-align: center;
+}
 .searchbarcontainer{
     display: flex;
     align-items: center;
@@ -50,7 +52,7 @@
     margin-bottom: 60px;
     color: white;
     font-size: 20px;
-  
+    width: 100%;
 }
 .specialSpan{
     font-size: 32px;
@@ -230,7 +232,11 @@
     padding-left: 0px;
     width: 30%;
     text-align: left;
+   
     
+}
+p{
+    font-family: 'Open Sans',sans-serif;
 }
 
 .aboutus button{
@@ -280,9 +286,7 @@
 .eventsContainer img{
     border-radius: 5px 5px 0 0;
 }
-p{
-    font-family: 'Open Sans', sans-serif
-}
+
 .flexcontainer{
     margin-left: 300px;
    
@@ -370,8 +374,8 @@ hr{
     justify-content: center; 
     align-items: flex-start; 
     width: 30%;
-    max-width: 100%; /* Set a maximum width of 100% */
-    min-height: 200px; /* Maintain aspect ratio */
+    max-width: 100%; 
+    min-height: 200px; 
     min-width: 250px;
     margin-right: 00px;
     margin-left: 50px;
