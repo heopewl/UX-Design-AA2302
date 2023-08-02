@@ -55,22 +55,30 @@
     width: 100%;
 }
 .textInPicture{
-    display: inline-block;
-    width: 100%;
+   margin-left:auto;
+   margin-right: auto;
+   margin-top: 35px;
 }
 .specialSpan{
     font-size: 32px;
     font-family: 'Playfair Display', serif;
     display: flex;
-   width: 100%;
-    
+    width: 60%;
+
+}
+.pictext{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    flex-wrap: wrap;
+
 }
 .span{
-    display: flex;
+
     align-items: center;
     justify-content: center;
     width: 100%;  
-    max-width: 70%;
+    max-width: 80%;
 }
 .Bookingbutton{
   padding: 10px 20px;
@@ -105,8 +113,11 @@
      
     }
     .textInPicture{
-        width:100%;
-        display: inline-block;
+        transform: translateX(-50px);
+        
+    }
+    .textInPicture span{
+        width: 100%;
     }
     .incontainer{
         margin-top: -55px;
@@ -123,6 +134,11 @@
     .special{
        padding: 0px;
        display: inline-block;
+    }
+    .specialSpan{
+        width: 100%;
+        display: inline-block;
+        flex-wrap: wrap;
     }
     .searchbarcontainer label{
         font-size:15px;
@@ -228,7 +244,7 @@
     align-items: center; /*item will wrap into a new line whn reaching to end of container*/
     justify-content: center; /*Align items along main axis and centers with the main container*/
     padding: 40px;
-    margin-top:150px;
+    margin-top:200px;
 }
 .aboutusimg{
     margin-left: 100px; 

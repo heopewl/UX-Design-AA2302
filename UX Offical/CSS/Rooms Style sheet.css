@@ -44,7 +44,7 @@ body{
 }
 
 .mainheader{
-    font-family: 'Cinzel',Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel','Montserrat',Arial, Helvetica, sans-serif;
     font-size: 3.5em;
     width: 50%;
     margin: 0 auto;
@@ -53,7 +53,7 @@ body{
 }
 
 .basictext{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.1em;
     color: black;
@@ -115,7 +115,7 @@ body{
     color: black;
     display: block;
     text-align: center;
-    width: 130px;
+    width: 180px;
     margin: 0 auto;
     cursor: pointer;
     transition: all 0.2s ease 0s;
