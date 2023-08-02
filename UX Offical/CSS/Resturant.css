@@ -14,8 +14,12 @@
   padding-left: 15px;
   border-left: white 3px solid;
   font-size: 8em;
+  font-family: 'Playfair Display', serif;
 }
 
+p{
+  font-family: 'Open Sans',sans-serif;
+}
 .HeaderIMG{
   width: 100%;
   height: auto;
