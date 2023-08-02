@@ -93,13 +93,13 @@
   color: black;
   border: 3px solid black ;
   padding: 10px;
-  background-color: #deebc6;
+  background-color: #FFFFF0;
   font-weight: bold;
 }
 
 .book_button:hover{
   border: goldenrod solid 3px;
-  background-color: white;
+  background-color: #FFFFFF;
   color: black;
 }
 
