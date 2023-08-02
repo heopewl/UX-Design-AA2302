@@ -42,7 +42,7 @@
 <body>
     <br><br>
 
-    <form method="get">
+    <form method="get" onsubmit="return showAlert()">
         <fieldset>
             <legend>Facilities Reservation</legend>
             <br><br>
@@ -119,7 +119,6 @@
             
             <input class="butsubmit" type="submit" value="submit"></input>
             <br><br><br>
-            <input type="button" required>
         </fieldset>
         <br>
     </form>
@@ -127,7 +126,10 @@
 
 <br><br>
 <script>
-
+    function showAlert() {
+  alert("Form Submitted!");
+  return true;
+    }
 </script>
 </body>
 <footer>
