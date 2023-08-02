@@ -52,7 +52,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #B28850;
@@ -89,7 +89,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #B28850;
@@ -126,7 +126,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #808080;
@@ -161,7 +161,7 @@
     border-radius: 50%;
     border: white 3.5px solid;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans',sans-serif;
     color: #fff;
     text-align: center;
     background: #808080;
@@ -204,21 +204,21 @@ h1.information_header{
 }
 
 .information_checkin_date{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
 }
 
 .information_checkout_date{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
 }
 
 .information_days_counter_date{
-    font-family: 'roboto';
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
@@ -282,7 +282,7 @@ h1.information_header{
     margin-left: 15px;
     margin-right: 10px;
     margin-top: 10px;
-    font-family: 'Lato';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     utline: auto;
     text-align: center;
@@ -318,7 +318,7 @@ h1.information_header{
 
 
 .garden_oasis_room_text_in_button{
-    margin-top: 12px;
+    margin-top: 6px;
     color: black;
     font-size: 23px;
 }
@@ -366,7 +366,7 @@ h1.information_header{
     margin-left: 15px;
     margin-right: 10px;
     margin-top: 20px;
-    font-family: 'Lato';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     utline: auto;
     text-align: center;
@@ -402,7 +402,7 @@ h1.information_header{
 
 
 .Ocean_Retreat_Room_text_in_button{
-    margin-top: 12px;
+    margin-top: 6px;
     color: black;
     font-size: 23px  ;
 }
@@ -453,7 +453,7 @@ h1.information_header{
     margin-left: 15px;
     margin-right: 10px;
     margin-top: 20px;
-    font-family: 'Lato';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     utline: auto;
     text-align: center;
@@ -489,7 +489,7 @@ h1.information_header{
 
 
 .Premium_Oasis_Suite_text_in_button{
-    margin-top: 12px;
+    margin-top: 6px;
     color: black;
     font-size: 23px  ;
 }
@@ -538,7 +538,7 @@ h1.information_header{
     margin-left: 15px;
     margin-right: 10px;
     margin-top: 20px;
-    font-family: 'Lato';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     utline: auto;
     text-align: center;
@@ -574,7 +574,7 @@ h1.information_header{
 
 
 .Sentosa_Suite_text_in_button{
-    margin-top: 12px;
+    margin-top: 6px;
     color: black;
     font-size: 23px  ;
 }
