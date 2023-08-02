@@ -110,10 +110,10 @@ h3{
     height: auto;
 }
 .vertical-line {
-    width: 1px; /* Line width */
-    background-color: black; /* Line color */
-    height: 1000px; /* Line height */
-    margin left: 0; 
+    width: 1px; 
+    background-color: black; 
+    height: 1000px; 
+    margin-left: 0; 
   }
 @keyframes fade_in{
     from {left: 0px;}
