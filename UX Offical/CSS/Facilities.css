@@ -9,13 +9,6 @@
 
 .center {text-align: center;}
 
-#startimg{
-    width: 100%;
-    height: 500px;
-    margin: 0px;
-    padding: 0px;
-    
-}
 #desc{
     background-color:#fffff0;
     width: 100%;
@@ -108,6 +101,9 @@ h3{
     border-left: white 3px solid;   
     font-size: 8em;
 }
+.Title{
+    text-shadow: 0 0 5px black;
+}
   
 .HeaderIMG{
     width: 100%;
@@ -125,16 +121,8 @@ h3{
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-.IntroPic{
-    height: 400px;
-    width: 90%;
-    max-width: 500px;
-
-    aspect-ratio: 1/1;
-    max-height: 400px;
 }
 
-}
 @media screen and (max-width: 768px){
 .Header h1{
       font-size: 40px;
@@ -143,26 +131,6 @@ h3{
       display: none;
       transition: transform 0.5s ease-in;
 }
-  
-.container_tally{
-      display:block ;
-      justify-content: center;
-      flex-wrap: none;
-      margin: auto;
-}
-    
-.IntroPic{
-      height: 400px;
-      width: 100%;
-      max-width: 500px;
-  
-      aspect-ratio: 1/1;
-      max-height: 400px;
-      margin-left: 0;
-      padding-left: 0;
-}
-.Restaurant_Text_Intro{
-      width: 280px;
-}
+
 }
 
