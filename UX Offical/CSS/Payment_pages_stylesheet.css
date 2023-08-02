@@ -186,18 +186,21 @@
     height: 400px;
     margin: 0 auto;
     margin-top: 150px;
-    outline: auto;
     display: flex;
     margin-bottom: 300px;
+    background-color: #ededed;
+    border: #d7d7d7 5px solid;
 }
 
 .checkin_section{
-    outline: black solid 2px;
+    utline: black solid 2px;
+    border-right: #d7d7d7 2.5px solid;
     width: 50%;
 }
 
 .checkout_section{
-    outline: black solid 2px;
+    utline: black solid 2px;
+    border-left: #d7d7d7 2.5px solid;
     width: 50%;
 }
 

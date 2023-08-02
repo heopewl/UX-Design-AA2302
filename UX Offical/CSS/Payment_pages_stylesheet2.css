@@ -239,7 +239,8 @@ h1.information_header{
 /* 1st Room container */  
 
 .garden_oasis_room_container_to_book{
-    utline: auto; 
+    outline: auto; 
+    width: 800px;
 }
 
 .garden_oasis_room_header_to_book{
@@ -268,6 +269,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .garden_oasis_room_text_to_book{
@@ -320,6 +322,7 @@ h1.information_header{
 .Ocean_Retreat_Room_container_to_book{
     utline: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .Ocean_Retreat_Room_header_to_book{
@@ -348,6 +351,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .Ocean_Retreat_Room_text_to_book{
@@ -403,6 +407,7 @@ h1.information_header{
 .Premium_Oasis_Suite_container_to_book{
     utline: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .Premium_Oasis_Suite_header_to_book{
@@ -431,6 +436,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .Premium_Oasis_Suite_text_to_book{
@@ -484,6 +490,7 @@ h1.information_header{
 .Sentosa_Suite_container_to_book{
     utline: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .Sentosa_Suite_header_to_book{
@@ -512,6 +519,7 @@ h1.information_header{
     flex-direction: column;
     utline: red 5px solid;
     background-color: #d3d3d3;
+    width: 400px;
 }
 
 .Sentosa_Suite_text_to_book{
