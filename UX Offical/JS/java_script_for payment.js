@@ -1,5 +1,9 @@
 
-var testing = document.getElementById("check_in").value;
+var gangops = document.getElementById("check_in").value;
 
-alert("testing")
-document.write(testing)
+document.getElementById("testing_testing").innerText='gang';
+
+
+document.getElementById("information_days_counter_date").innerText='gang';
+
+
