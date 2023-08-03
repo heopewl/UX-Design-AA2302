@@ -20,9 +20,10 @@
         src: url(TTF/Cinzel/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
         format(truetype);
     }
-    .main label {
+    .main h1 {
         font-family: playfair;
         font-weight: 500;
+        font-size: 3em;
     }
   </style>
   <title>FAQ</title>
@@ -44,28 +45,32 @@
           <li><a class="colorchange" href="Facilities.html">facilities</a></li>
           <li><a href="Payment webpage 1 (Date Selection).html" class="navbutton">Book now</a></li>
         </ul>
-        <div class="main">
-            <form method="get" action="aboutus.html" id="form">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-              <br>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-              <br>
-              <label for="phone">Phone:</label>
-              <input type="tel" id="phone" name="phone" required>
-              <br>
-              <label for="event">Title:</label>
-              <select id="event" name="event" required>
-                <option value="tech">Technical Support</option>
-                <option value="complaint">Complaint</option>
-              </select>
-              <label for="textbox">Please elaborate:</label>
-              <textarea rows="10" cols="40" name="text" id="textarea" placeholder="Describe your issue"></textarea>
-              <br>
-              <button type="submit" class="roombutton">Submit</button>
-            </form>
-          </div>
+            <div class="main">
+                <form method="get" action="aboutus.html" id="form">
+                <h1>Contact Us</h1>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="username@email.com">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+65 00000000">
+                <br>
+                <label for="event">Title:</label>
+                <select id="event" name="event" required>
+                    <option value="techsupport">Technical Support</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="others">Others</option>
+                </select>
+                <label for="textbox">Please elaborate:</label>
+                <textarea rows="6" cols="35" name="text" id="textarea" placeholder="Describe your issue" maxlength="500"></textarea>
+                <br>
+                <button type="submit" class="roombutton">Submit</button>
+                </form>
+            </div>
+            <hr class="gapline2">
     <footer>
         <div class="section1_footer">
           <div class="part1footerleft">
@@ -95,6 +100,5 @@
             <a href=""class="copyright"><p class="copyrighttext">© 2023 Reza Resort. All rights reserved</p></a>
         </div>
     </footer>
-  <script src="JS/Resturant.js"></script>
 </body>
 </html>
