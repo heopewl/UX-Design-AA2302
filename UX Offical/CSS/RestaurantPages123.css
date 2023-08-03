@@ -17,9 +17,9 @@ body{
     margin: auto;
     text-align: center;
     padding: 10px;
-    width: 200px;
+    width: 210px;
     border-bottom: solid black 3px;
-    
+    font-family: 'Playfair Display', serif;
 }
 
 .Main_container p{
