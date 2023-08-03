@@ -1,12 +1,17 @@
 
 alert("connected to the JS");
 
-document.getElementById("testing_testing").innerText='gang';
+// First Payment Page
 
-document.getElementById("testing_123").innerText="please";
+//var check_in_date = document.getElementById("check_in").value;
+
+document.getElementById("information_days_counter_dates").innerText="yo";
 
 
-//var gangops = document.getElementById("check_in").value;
+
+// Second Payment Page
+
+
 
 
 
