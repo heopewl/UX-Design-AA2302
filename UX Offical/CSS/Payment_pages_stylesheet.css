@@ -62,7 +62,7 @@
 
 .text_next_to_date_indicator_icon{
     display: inline-block;
-    font-size: 20px ;
+    font-size: 17px ;
     font-family: 'Montserrat';
     text-align: center;
     margin-left: 10px;
@@ -99,7 +99,7 @@
 
 .text_next_to_room_indicator_icon{
     display: inline-block;
-    font-size: 20px ;
+    font-size: 17px ;
     font-family: 'Montserrat';
     text-align: center;
     margin-left: 10px;
@@ -136,7 +136,7 @@
 
 .text_next_to_guest_indicator_icon{
     display: inline-block;
-    font-size: 20px ;
+    font-size: 17px ;
     font-family: 'Montserrat';
     text-align: center;
     margin-left: 10px;
@@ -171,7 +171,7 @@
 
 .text_next_to_confirmation_indicator_icon{
     display: inline-block;
-    font-size: 20px ;
+    font-size: 17px ;
     font-family: 'Montserrat';
     text-align: center;
     margin-left: 10px;
