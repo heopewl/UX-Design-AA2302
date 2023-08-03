@@ -7,6 +7,7 @@
   <title>Restaurant Result</title>
   <link rel="stylesheet" href="CSS/NewNavbar.css">
   <link href="CSS/Footer.css" rel="stylesheet" type="text/css">
+  <link href="CSS/RestaurantFormResult.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
@@ -35,10 +36,15 @@
         <li><a href="Payment webpage 1 (Date Selection).html" class="navbutton">Book now</a></li>
         </ul>
     </nav>
+    <div class="container">
+        <br>
+        <h1 id = "res1"></h1>
+        <p id = "res2"></p>
+        <br>
+        <br>
+        <a class = "goHome" href="Homepage.html">Home</a>
+    </div>
 
-    <h1>Result</h1>
-    <p id = "res1"></p>
-    <p id = "res2"></p>
 
     <script>
         var data = window.location.search;
@@ -52,7 +58,7 @@
         var ReservationTiming = params.get("ReservationTiming");
         var NumberofGuests = params.get("NumberofGuests");
         var getSuccessful = "Reservation Successful.";
-        var getData = "You have booked " +ResturantSelection + " on " + ReservationDates + " at " + ReservationTiming + ".";
+        var getData = "You have booked " +ResturantSelection + " for " + ReservationDates + " at " + ReservationTiming + ".";
         document.getElementById("res1").innerHTML = getSuccessful;
         document.getElementById("res2").innerHTML = getData;
         
