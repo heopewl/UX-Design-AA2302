@@ -14,6 +14,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+        font-family: Playfair;
+        src: url(TTF/Cinzel/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+        format(truetype);
+    }
+    .main label {
+        font-family: playfair;
+        font-weight: 500;
+    }
+  </style>
   <title>FAQ</title>
 </head>
 <body style="background-color: #FFFFFF;">
@@ -33,10 +44,28 @@
           <li><a class="colorchange" href="Facilities.html">facilities</a></li>
           <li><a href="Payment webpage 1 (Date Selection).html" class="navbutton">Book now</a></li>
         </ul>
-    </nav>
-    <form>
-        
-    </form>
+        <div class="main">
+            <form method="get" action="aboutus.html" id="form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <br>
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+              <br>
+              <label for="event">Title:</label>
+              <select id="event" name="event" required>
+                <option value="tech">Technical Support</option>
+                <option value="complaint">Complaint</option>
+              </select>
+              <label for="textbox">Please elaborate:</label>
+              <textarea rows="10" cols="40" name="text" id="textarea" placeholder="Describe your issue"></textarea>
+              <br>
+              <button type="submit" class="roombutton">Submit</button>
+            </form>
+          </div>
     <footer>
         <div class="section1_footer">
           <div class="part1footerleft">
