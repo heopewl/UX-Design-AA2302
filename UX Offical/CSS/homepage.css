@@ -90,9 +90,7 @@
   margin-top: 20px;
 }
 
-p{
-    font-family: 'Open Sans',sans-serif;
-}
+
 
 @media screen and (max-width: 768px){
     .searchbarcontainer{
@@ -106,6 +104,8 @@ p{
     .bigimage img{
         height: 50%;
     }
+    
+    
     .textInPicture p{
         margin-bottom: 80px;
         color: white;
@@ -117,9 +117,6 @@ p{
     .textInPicture{
        margin-left: -70px;
         
-    }
-    .textInPicture span{
-        width: 100%;
     }
     .incontainer{
         margin-top: -55px;
@@ -160,6 +157,15 @@ p{
     .aboutusimg{
         margin-right: 100px;
         padding-top:30px;
+    }
+    #pictureintext{
+       width: 100%;
+    }
+    #spanspecial{
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+        
     }
     .Dining{
         flex-wrap: wrap;
@@ -257,7 +263,7 @@ p{
     padding-left: 0px;
     width: 30%;
     text-align: left;
-   
+    font-family: 'Open Sans',sans-serif;
     
 }
 
