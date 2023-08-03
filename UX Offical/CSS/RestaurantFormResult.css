@@ -1,0 +1,17 @@
+
+.container{
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#res1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+#res2{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
