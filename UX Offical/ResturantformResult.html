@@ -36,8 +36,25 @@
         </ul>
     </nav>
 
-    
-      
+    <h1>Result</h1>
+    <p id = "res"></p>
+    <script>
+        var data = location.search;
+        var params = new URLSearchParams(data);
+        console.log(params)
+        console.log(params.get(" "));
+        console.log(params.get(" "));
+        console.log(params.get(" "));
+        console.log(params.get(" "));
+        console.log(params.get(" "));
+        console.log(params.get(" "));
+        console.log(params.get(" "));
+        console.log(params.get(" "));            
+
+        
+        document.getElementById('res').innerHTML(data);
+
+    </script>
 
     <footer>
     <div class="section1_footer">
