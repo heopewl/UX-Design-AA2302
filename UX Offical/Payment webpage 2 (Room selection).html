@@ -74,7 +74,7 @@
     <div class="container_rooms_selections">
 
         <div class="garden_oasis_room_container_to_book">
-            <h1 class="garden_oasis_room_header_to_book">Garden Oasis Room</h1>
+            <h1 class="garden_oasis_room_header_to_book" id="testinglol">Garden Oasis Room</h1>
 
             <div class="garden_oasis_room_container_for_image_text">
             <img src="ImageNVideo/standard garden view room.jpg" alt="" class="garden_oasis_room_image_to_book">
@@ -85,7 +85,9 @@
                 <p class="garden_oasis_room_text_to_book">With a Queen Sized bed</p>
                 <p class="garden_oasis_room_text_to_book">Up to 2 Guests</p>
                 <p class="garden_oasis_room_text_to_book">View of the Oasis Garden</p>
-                <a href="Payment webpage 3.html" class="garden_oasis_room_button"><p class="garden_oasis_room_text_in_button">Select Room</p></a>
+                <a href="Payment webpage 3.html" class="garden_oasis_room_button" onclick="garden_oasis_button()" >
+                    <p class="garden_oasis_room_text_in_button">Select Room</p>
+                </a>
             </div>
             </div>
             <hr class="line_break_seperating_rooms">
@@ -105,7 +107,7 @@
                 <p class="garden_oasis_room_text_to_book">With a Queen Sized bed</p>
                 <p class="garden_oasis_room_text_to_book">Up to 2 Guests</p>
                 <p class="garden_oasis_room_text_to_book">View of the Sentosa Beach</p>
-                <a href="Payment webpage 3.html" class="Ocean_Retreat_Room_button"><p class="Ocean_Retreat_Room_text_in_button">Select Room</p></a>
+                <a href="Payment webpage 3.html" class="Ocean_Retreat_Room_button" onclick="ocean_retreat_button()"><p class="Ocean_Retreat_Room_text_in_button">Select Room</p></a>
             </div>
             </div>
             <hr class="line_break_seperating_rooms">
@@ -159,10 +161,11 @@
 
     <div class="important_infomation">
         <h1 class="information_header">Infomation</h1>
-        <p class="information_checkin_date">Check-In date: 1st August 2023</p>
-        <p class="information_checkout_date">Check-Out date: 5th August 2023</p>
+        <p class="information_checkin_date">Check-In Date: <p class="information_checkin_date" id="information_checkin_date">Check-In date: 1st August 2023</p></p>
+        <p class="information_checkout_date">Check-Out Date: <p class="information_checkout_date" id="information_checkout_date">Check-Out date: 5th August 2023</p></p>
     </div>
 
+    <script src="JS/payment_pages.js"></script>
 
 
     <footer>

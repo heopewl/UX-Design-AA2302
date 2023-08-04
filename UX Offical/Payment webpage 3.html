@@ -68,8 +68,8 @@
     
     <div class="container_guest_info_form">
         <h1 class="form_guest_info_header">Guest Infomation</h1>
-        <form action="Payment webpage 4.html" method="get" class="guest_info_form">
-            <input type="text" class="guest_info_input_fullname" placeholder="Full Name" required>
+        <form action="Payment webpage 4.html" class="guest_info_form">
+            <input type="text" class="guest_info_input_fullname" placeholder="Full Name" id="Fullname" required>
             <input type="number" class="guest_info_input_phonenumber" placeholder="Phone Number" required min="10000000" max="99999999">
             <input type="email" class="guest_info_input_email" placeholder="Email" required>
 
@@ -105,7 +105,7 @@
         <input type="number" class="credit_card_number_input" placeholder="CVV" required min="100" max="999">
 
         
-        <input type="submit" class="form_submit_button">
+        <input type="submit" class="form_submit_button" onclick="testing()">
         </form>
 
 
@@ -115,9 +115,9 @@
 
     <div class="important_infomation">
         <h1 class="information_header">Infomation</h1>
-        <p class="information_checkin_date">Check-In date: 1st August 2023</p>
-        <p class="information_checkout_date">Check-Out date: 5th August 2023</p>
-        <p class="information_days_selected_room">Room Selected: Ocean Retreat Room</p>
+        <p class="information_checkin_date">Check-In Date: <p class="information_checkin_date" id="information_checkin_date">Check-In date: 1st August 2023</p></p>
+        <p class="information_checkout_date">Check-Out Date: <p class="information_checkout_date" id="information_checkout_date">Check-Out date: 5th August 2023</p></p>
+        <p class="information_days_selected_room" id="selectedRoom">Room Selected: Ocean Retreat Room</p>
         <p class="information_days_selected_room">Total Cost: $400</p>
     </div>
 
@@ -128,7 +128,7 @@
 
 
 
-
+    <script src="JS/payment_pages.js"></script>
 
 
 
