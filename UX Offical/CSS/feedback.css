@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Playball";
+  src: url(./fonts/Playball-Regular.ttf) format(truetype);
+}
+
+body .main h1 {
+  font-family: "Playball", sans-serif;
+  font-size: 4em;
+}
+
+
+form {
+    margin-top: 50px;
+    border-width: 3px;
+    border-color: #333;
+    border-style: solid;
+    padding: 20px
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+.main {
+    text-align:justify;
+    padding-left: 50px;
+}
+
+.main h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main label {
+    font-size: 20PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main form textarea {
+  font-size: 20px;
+}

@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" href="CSS/NewNavbar.css">
-  <link rel="stylesheet" href="CSS/Resturant.css">
+  <link rel="stylesheet" href="CSS/faq.css">
   <link rel="stylesheet" href="CSS/Footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <title>Dining</title><!-- REPLACE title as what u want -->
+  <style>
+    @font-face {
+        font-family: Playfair;
+        src: url(TTF/Cinzel/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+        format(truetype);
+    }
+    .main h1 {
+        font-family: playfair;
+        font-weight: 500;
+        font-size: 3em;
+    }
+  </style>
+  <title>FAQ</title>
 </head>
 <body style="background-color: #FFFFFF;">
     <nav>
@@ -33,72 +45,32 @@
           <li><a class="colorchange" href="Facilities.html">facilities</a></li>
           <li><a href="Payment webpage 1 (Date Selection).html" class="navbutton">Book now</a></li>
         </ul>
-    </nav>
-
-    <header>
-        <div class="Header">
-          <h1 class = "Title">Dining</h1>
-          <img src="ImageNVideo/2ndResturantBG.jpg" class="HeaderIMG" style="aspect-ratio:900/506; width:100%; max-height:60vh;">
-        </div>
-    </header>
-    <div class="intro_container">
-      <img class ="IntroPic" src="ImageNVideo/FineDiningLandscape1.jpg" alt="">
-      <h1 class="Dining_Description">The Art of Dining</h1>
-      <p class="intro-textsize">The art of dining is more than just eating good food. It's about savoring the experience, from the presentation of the dish to the company you're sharing it with.<br><br>
-        A well-prepared meal can be a work of art, and the art of dining is about appreciating all the elements that go into creating that experience.<br><br><br><a class = "book_button"href="Resturantforms2.html">Reserve Table</a></p>
-
-      
-    </div>
-
-
-    </div> 
-    <h1 class = "Restaurant_Text_Intro">Restaurants at Reza Resort</h1>
-  
-    <div class = "Container_ALL">
-      <div class="container_tally">
-
-        <div class="card-container">
-          <div class="card">
-            <img src="ImageNVideo/beach-restaurant-evening.jpg" alt="Restaurant 1">
-            <h2>Restaurant 1</h2>
-            <p>Fine Dining at the Beach</p>
-            <br>
-            <br>
-            <a class = "book_button"href="Restaurant1Page.html">Learn More</a>
-          </div>
-        </div> 
-        <div class="card-container">
-          <div class="card">
-            <img src="ImageNVideo/SushiRestaurant.jpg" alt="Restaurant 2">
-            <h2>Restaurant 2</h2>
-            <p>Experience the best Japanese Cuisine</p>
-            <br>
-            <br>
-            <a class = "book_button"href="Restaurant2Page.html">Learn More</a>
-          </div>
-        </div>
-        <div class="card-container">
-          <div class="card">
-            <img src="ImageNVideo/KPOCafeBar2.jpg" alt="Restaurant 3">
-            <h2>Restaurant 3</h2>
-            <p>Bar Cafe</p>
-            <br>
-            <br>
-            <a class = "book_button"href="Restaurant3Page.html">Learn More</a>
-          </div>
-        </div>
-        <div class="card-container">
-          <div class="card">
-            <img src="ImageNVideo/BreakfastBuffet.jpg" alt="Restaurant 4">
-            <h2>Restaurant 4</h2>
-            <p>Breakfast Buffet</p>
-            <br>
-            <br>
-            <a class = "book_button"href="Restaurant4Page.html">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
+            <div class="main">
+                <form method="get" action="aboutus.html" id="form">
+                <h1>Contact Us</h1>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="username@email.com">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+65 00000000">
+                <br>
+                <label for="event">Title:</label>
+                <select id="event" name="event" required>
+                    <option value="techsupport">Technical Support</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="others">Others</option>
+                </select>
+                <label for="textbox">Please elaborate:</label>
+                <textarea rows="6" cols="35" name="text" id="textarea" placeholder="Describe your issue" maxlength="500"></textarea>
+                <br>
+                <button type="submit" class="roombutton">Submit</button>
+                </form>
+            </div>
+            <hr class="gapline2">
     <footer>
         <div class="section1_footer">
           <div class="part1footerleft">
@@ -119,7 +91,6 @@
                     <a href="https://twitter.com/AimanReza06" class="mainsocialmedia"><img src="ImageNVideo/Twitter.jpg" alt="" class="socialmediaiconfirst"></a>
                     <a href="https://www.facebook.com/TheStraitsTimes?mibextid=LQQJ4d" class="mainsocialmedia"><img src="ImageNVideo/Facebook.jpg" alt="" class="socialmediaicon"></a>
                     <a href="https://www.instagram.com/righthand_aiman/" class="mainsocialmedia"><img src="ImageNVideo/Instagram.jpg" alt=""class="socialmediaicon"></a>
-                  <!-- <a href="https://vt.tiktok.com/ZSLjpVJJf/" class="mainsocialmedia"><img src="images/edited/Tiktok.jpg" alt="" class="socialmediaicon"></a> -->
                   </div>  
               </div>
           </div>
@@ -129,6 +100,5 @@
             <a href=""class="copyright"><p class="copyrighttext">© 2023 Reza Resort. All rights reserved</p></a>
         </div>
     </footer>
-  <script src="JS/Resturant.js"></script>
 </body>
 </html>

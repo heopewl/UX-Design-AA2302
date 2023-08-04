@@ -101,6 +101,9 @@ nav ul li a{
        
         
     }
+    label .logo{
+        font-size: 15px;
+    }
     nav ul li a{
         font-size: 20px;
         color: black;
@@ -116,3 +119,9 @@ nav ul li a{
 
     }
 }
+@media (max-width:358px){
+    #Logo{
+        font-size: 20px;
+       
+    }
+    }

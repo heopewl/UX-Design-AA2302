@@ -28,10 +28,8 @@ nav ul li{
     flex-wrap: wrap;
     width: 100%;
 }
-p{
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-}
+
+
 .maincontainer{
     display:block;
     flex-wrap: wrap;
